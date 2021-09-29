@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MeasurementActivity">
+
+    <ai.nuralogix.anuracream.ui.views.MeasurementView
+        android:id="@+id/measurement_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/dfxsdkversion_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DFX ID: "
+        android:textColor="#FFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/measurementId_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Measurement ID: "
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toTopOf="@id/snr_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/snr_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SNR: "
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toTopOf="@id/msi_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/msi_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MSI: "
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toTopOf="@id/bpd_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bpd_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BPD: "
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toTopOf="@id/bps_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bps_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BPS: "
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

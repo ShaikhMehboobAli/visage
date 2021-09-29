@@ -1,0 +1,108 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+//        applicationId "ai.nuralogix.anura.sample"
+        minSdkVersion 25
+        targetSdkVersion 29
+        versionCode 1
+        versionName "2.3.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        def SAMPLE_REST_URL = ""
+        def SAMPLE_WS_URL = ""
+        def LICENSE_KEY = ""
+        def PARTNER_ID = ""
+        def STUDY_ID = ""
+        def VISAGE_LICENSE = ""
+
+        if (file('server.properties').exists()) {
+            Properties properties = new Properties()
+            properties.load(file('server.properties').newDataInputStream())
+
+            applicationId = properties.getProperty("APPLICATION_ID")
+            SAMPLE_REST_URL = properties.getProperty("SAMPLE_REST_URL")
+            SAMPLE_WS_URL = properties.getProperty("SAMPLE_WS_URL")
+            LICENSE_KEY = properties.getProperty("LICENSE_KEY")
+            PARTNER_ID = properties.getProperty("PARTNER_ID")
+            STUDY_ID = properties.getProperty("STUDY_ID")
+            VISAGE_LICENSE = properties.getProperty("VISAGE_KEY")
+        }
+
+        buildConfigField 'String', 'SAMPLE_REST_URL', "\"${SAMPLE_REST_URL}\""
+        buildConfigField 'String', 'SAMPLE_WS_URL', "\"${SAMPLE_WS_URL}\""
+        buildConfigField 'String', 'LICENSE_KEY', "\"${LICENSE_KEY}\""
+        buildConfigField 'String', 'PARTNER_ID', "\"${PARTNER_ID}\""
+        buildConfigField 'String', 'STUDY_ID', "\"${STUDY_ID}\""
+        buildConfigField 'String', 'VISAGE_LICENSE', "\"${VISAGE_LICENSE}\""
+
+        ndk {
+            // Specifies the ABI configurations of your native
+            // libraries Gradle should build and package with your APK.
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "feature"
+
+    productFlavors {
+        simple {
+            dimension "feature"
+            buildConfigField("Boolean", "hasFullFeature", "false")
+        }
+
+        full {
+            dimension "feature"
+            buildConfigField("Boolean", "hasFullFeature", "true")
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = rootProject.sourceCompatibilityVersion
+        targetCompatibility = rootProject.targetCompatibilityVersion
+    }
+    packagingOptions {
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    dependencies {
+        implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+        implementation(name: 'anura-core-sdk-2.3.0', ext: 'aar')
+        implementation(name: 'anura-opencv-4.5.1', ext: 'aar')
+        implementation(name: 'anura-visage-2.3.0', ext: 'aar')
+
+        fullImplementation(name: 'anura-cream-ui-1.1.0', ext: 'aar')
+
+        implementation "com.google.protobuf:protobuf-java:${protobufVersion}"
+        implementation "org.java-websocket:Java-WebSocket:${websocketVersion}"
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+        implementation "com.android.support:appcompat-v7:${appcompatv7Version}"
+        implementation "com.android.support.constraint:constraint-layout:${constraintLayoutVersion}"
+        implementation "com.android.support:preference-v7:${appcompatv7Version}"
+        implementation "com.android.support:support-fragment:${appcompatv7Version}"
+
+        implementation "com.google.code.gson:gson:${gsonVersion}"
+    }
+
+}

@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ANURA_ENTERPRISE">"Anura for {ENT_NAME}"</string>
+    <string name="ANURA_TEXT_LOGO_NAME">"logo-wordmark"</string>
+    <string name="API_ERR_ENDPOINT_DISABLED">"API_ERROR_ENDPOINT_DISABLED"</string>
+    <string name="API_ERR_FORBIDDEN">"Account access temporarily locked. Please try again later"</string>
+    <string name="API_ERR_INTERNAL_ERROR">"Oops! Something went wrong. Please try again later"</string>
+    <string name="API_ERR_INVALID_CREDENTIALS">"API_ERROR_INVALID_CREDENTIALS"</string>
+    <string name="API_ERR_INVALID_LICENSE_KEY">"API_ERROR_INVALID_LICENSE_KEY"</string>
+    <string name="API_ERR_INVALID_PASSWORD">"Email/Password combination is incorrect
+Please try again"</string>
+    <string name="API_ERR_INVALID_RESET_TOKEN">"API_ERROR_INVALID_RESET_TOKEN"</string>
+    <string name="API_ERR_INVALID_TOKEN">"API_ERROR_INVALID_TOKEN"</string>
+    <string name="API_ERR_INVALID_USER">"Login is invalid
+Please try again"</string>
+    <string name="API_ERR_INVALID_VERIFICATION_CODE">"Verification code is invalid"</string>
+    <string name="API_ERR_LICENSE_EXPIRED">"Your license has expired. Please contact your license administrator"</string>
+    <string name="API_ERR_LOGIN_METHOD">"Please login with your phone number"</string>
+    <string name="API_ERR_MAX_KEYS_USED">"Your license has reached the maximum device registration. Please contact your license administrator"</string>
+    <string name="API_ERR_RESET_TOKEN_EXPIRY">"API_ERROR_RESET_TOKEN_EXPIRY"</string>
+    <string name="API_ERR_TOKEN_REQUIRED">"API_ERROR_TOKEN_REQUIRED"</string>
+    <string name="API_ERR_UNAUTHORIZED">"API_ERROR_UNAUTHORIZED"</string>
+    <string name="API_ERR_USER_ALREADY_EXISTS">"The {USERNAME} you entered is already in use"</string>
+    <string name="API_ERROR_LICENSE_EXPIRED">"Your license has expired. Please contact your license administrator"</string>
+    <string name="API_ERROR_MAX_KEYS_USED">"Your license has reached the maximum device registration. Please contact your license administrator"</string>
+    <string name="API_ERROR_UNVERIFIED_ACC">"Your account is not verified. Please follow the instructions in the verification email to activate your account"</string>
+    <string name="APP_CONFIG_LOAD_BODY">"Anura™ needs to restart for the new configuration to take effect"</string>
+    <string name="APP_CONFIG_LOAD_TITLE">"New App Configuration Loaded Successfully"</string>
+    <string name="APP_NAME">"Anura"</string>
+    <string name="BELSOL_AFTER">"After formula"</string>
+    <string name="BELSOL_BED">"Before bed"</string>
+    <string name="BELSOL_BEFORE">"Before formula"</string>
+    <string name="BELSOL_DURING">"During formula"</string>
+    <string name="BELSOL_WAKE_UP">"Wake up"</string>
+    <string name="BTN_AGREE">"Agree"</string>
+    <string name="BTN_BACK">"Back"</string>
+    <string name="BTN_BACK_MEASUREMENT">"Back to measurement"</string>
+    <string name="BTN_CANCEL">"Cancel"</string>
+    <string name="BTN_CLOSE_APP">"Close App"</string>
+    <string name="BTN_CONFIRM_ENT">"Confirm"</string>
+    <string name="BTN_CONFIRM_PASSWORD">"Confirm Password"</string>
+    <string name="BTN_CONTINUE">"Continue"</string>
+    <string name="BTN_DONE">"Done"</string>
+    <string name="BTN_LICENSE_OK">"OK"</string>
+    <string name="BTN_LOGIN">"Login"</string>
+    <string name="BTN_NO">"No"</string>
+    <string name="BTN_OK">"OK"</string>
+    <string name="BTN_PROFILE_FILL_PREV_DATA">"Fill Previous Participant Data"</string>
+    <string name="BTN_SAVE">"Save"</string>
+    <string name="BTN_SAVE_VIDEO">"Save video"</string>
+    <string name="BTN_SHARE">"Share"</string>
+
+    <!-- Fuzzy -->
+    <string name="BTN_START_MEASUREMENT">"Start Measurement"</string>
+    <string name="BTN_START_OVER">"Start over"</string>
+    <string name="BTN_SUBMIT">"Submit"</string>
+    <string name="BTN_TRY_AGAIN">"Try Again"</string>
+    <string name="BTN_UPDATE_NOW">"Update Now"</string>
+    <string name="BTN_UPDATE_PROFILE">"Update Profile"</string>
+    <string name="BTN_VIEW_GUIDELINES">"View Guidelines"</string>
+    <string name="BTN_YES">"Yes"</string>
+    <string name="CFBUNDLEDISPLAYNAME">"Anura"</string>
+    <string name="CFBUNDLENAME">"Anura"</string>
+    <string name="CONSENT_BTN_HIDE">"Hide"</string>
+    <string name="CONSENT_BTN_INFO">"More info"</string>
+    <string name="CONSENT_MORE_INFO">"**Controller:** 
+
+{ORG_NAME}
+
+{ORG_ADDRESS}
+
+**Purposes:** 
+
+Account creation and analysis of the facial blood-flow data to produce results regarding the user's health status
+
+**Types of data:** 
+
+Facial images and blood-flow data from which we extract and process to measure:
+
+-   Heart rate
+-   Breathing rate
+-   Blood pressure
+
+...
+
+You can withdraw your expressed consent(s) at any time."</string>
+    <string name="CONSENT_PROCESS_DATA">"I consent to the processing of my health data by {ORG_NAME} to provide me with the Anura™ app services as described in the Terms of Use"</string>
+    <string name="CONSENT_TOU_PP">"I have read and agree with Anura™'s {TOU} and {PP}"</string>
+    <string name="CV_ADJUST">"Score adjusted for your symptoms"</string>
+    <string name="CV_AGE">"What is your current age?"</string>
+    <string name="CV_AGE_POPUP">"You need to be between 18 - 120 years old to take this questionnaire."</string>
+    <string name="CV_BTN_NO_SYMP">"I am not experiencing these symptoms."</string>
+    <string name="CV_CALL_EMERG_NUM">"Stop and call 911 or your local emergency number if you are experiencing:"</string>
+    <string name="CV_CHEST_PAIN">"Are you experiencing chest pain?"</string>
+    <string name="CV_CHILLS">"Are you experiencing chills?"</string>
+    <string name="CV_COUGHING">"Do you have a cough?"</string>
+    <string name="CV_DIARRHEA">"Do you have diarrhea?"</string>
+    <string name="CV_DISCLAIMER_HEADER">"Are you having an emergency or immediate health concern?"</string>
+    <string name="CV_DYSPNEA">"Do you have difficulty breathing (dyspnea)?"</string>
+    <string name="CV_EMERG_SYMPTOMS">"- Severe difficulty breathing 
+- Severe chest pain
+- Having a very hard time waking up
+- Confusion
+- Faintness or loss of consciousness"</string>
+    <string name="CV_FATIGUE">"Are you experiencing fatigue?"</string>
+    <string name="CV_FEVER">"Do you have a fever?"</string>
+    <string name="CV_GENDER">"What is your gender?"</string>
+    <string name="CV_HEADACHE">"Do you have a headache?"</string>
+    <string name="CV_HOSPITAL_CONTACT">"Have you been in contact with someone who is sick and/or had travelled outside of Canada in the last 14 days?"</string>
+    <string name="CV_HOSPITAL_FEVER">"Do you have a fever, new worsening cough, or shortness of breath?"</string>
+    <string name="CV_HOSPITAL_TRAVEL">"Have you travelled outside of Canada in the last 14 days?"</string>
+    <string name="CV_INFO">"The COVID-19 score is the likelihood of testing positive for COVID-19 (expressed as a percent), given the specific set of symptoms entered in the COVID-19 questionnaire. The remaining percentage of patients with this symptom profile had seasonal flu (influenza) or common cold. 
+
+The COVID-19 score is calculated using a machine learning model, based upon a study of the symptom profile of patients who visited their physician with COVID-19 symptoms and were diagnosed with either COVID-19, seasonal flu (influenza) or common cold. 
+
+Please note that your symptom profile may also reflect preexisting conditions such as seasonal allergies, asthma, COPD, regular phenomena, and bronchitis. If you are uncertain about your symptoms, please visit a physician or a local COVID-19 test center for an official diagnosis. 
+
+To learn more about this COVID-19 Self-Assessment Tool, [click here](https://nuralogix.ai/covid-19)."</string>
+    <string name="CV_INFO_LIKELIHOOD">"This means that {COVID_LIKELIHOOD}% of individuals with your symptom profile tested positive for COVID-19.
+
+This also means that {NO_COVID_LIKELIHOOD}% of individuals with this symptom profile had seasonal flu or common cold."</string>
+
+    <!-- Fuzzy -->
+    <string name="CV_INTRO">"This tool uses a symptom questionnaire to estimate your likelihood of testing positive for COVID-19. It is based on a study of patients who visited their physician with COVID-19 symptoms and were diagnosed with either COVID-19, seasonal flu or a common cold."</string>
+
+    <!-- Fuzzy -->
+    <string name="CV_INTRO_PP_TOU">"By using this Self Assessment Tool, you agree to both the Terms of Use and Privacy Policy. You also agree to hold NuraLogix Corporation harmless from damages or liability that may result from your use of the Self Assessment Tool."</string>
+
+    <!-- Fuzzy -->
+    <string name="CV_INTRO_DISCLAIMER">"This Self Assessment Tool is not a substitute for the clinical judgement of a health care professional. It is intended for informational purposes and to improve your awareness of your general wellness. It does not diagnose, treat, mitigate or prevent any disease, symptom, disorder or abnormal physiological state. Consult with a healthcare professional or emergency services if you believe you may have a health issue."</string>
+    <string name="CV_LIKELIHOOD">"COVID-19 Likelihood"</string>
+    <string name="CV_MALAISE">"Are you experiencing general discomfort (uneasiness)?"</string>
+    <string name="CV_MYALGIA">"Do you have muscle aches (myalgia)?"</string>
+    <string name="CV_NAUSEA">"Are you feeling nauseous?"</string>
+    <string name="CV_NEW_BODY_1">"Find out your COVID-19 infection likelihood"</string>
+    <string name="CV_NEW_BODY_2">"Tap the "</string>
+    <string name="CV_NEW_BODY_3">"icon to start the self-assessment"</string>
+    <string name="CV_NEW_HEADER">"New feature: 
+COVID-19 Self Assessment"</string>
+    <string name="CV_ONETWO_YES">"Some of your reported symptoms exist for people with COVID-19. However, the number of symptoms you have reported is less than our required minimum to provide a prediction. Should your symptoms change, or if you develop new symptoms you may try again. If you are concerned about your health and COVID-19, you should review local guidance and contact a health care professional accordingly."</string>
+    <string name="CV_PRE_CONDITIONS">"This tool may not accurately estimate COVID-19 likelihood in users with the following pre-existing conditions, including:
+- Asthma
+- COPD
+- Heart failure
+- Pneumonia (without COVID-19 origin)
+- Bronchitis
+- Tuberculosis (TB)
+- Whooping cough (pertussis)
+- Seasonal allergies"</string>
+    <string name="CV_QUESTION_FOOTER">"Recommendations provided by this tool do not constitute medical advice and should not be used to diagnose or treat medical conditions."</string>
+    <string name="CV_QUESTION_HEADER">"Please answer ALL of the following questions as accurately as possible"</string>
+    <string name="CV_RUNNY_NOSE">"Do you have a runny nose?"</string>
+    <string name="CV_SHORT_BREATH">"Is your breathing faster than normal?"</string>
+    <string name="CV_SINUS_CONJESTION">"Do you have any sinus congestion?"</string>
+    <string name="CV_SORE_THROAT">"Do you have a sore throat?"</string>
+    <string name="CV_SPUTUM">"Are you producing any sputum?"</string>
+    <string name="CV_SUM_SHARE">"COVID-19 Self-Assessment Summary"</string>
+    <string name="CV_SUMMARY">"Summary of your answers"</string>
+    <string name="CV_TEMP_POPUP">"Sorry, the body temperature you entered is outside of the acceptable range for this tool. Please enter another temperature."</string>
+    <string name="CV_TEMPERATURE">"What is your body temperature in degrees?"</string>
+    <string name="CV_TITLE">"COVID-19"</string>
+    <string name="CV_TOOL">"COVID-19 Self Assessment Tool"</string>
+    <string name="CV_TY_BODY">"Next, please take a 30 second Anura measurement to get your complete results."</string>
+    <string name="CV_TY_HEADER">"Thank you for filling out the questionnaire!"</string>
+    <string name="CV_VOMITING">"Have you been vomiting?"</string>
+    <string name="CV_WHITE_SPUTUM">"Is your sputum white?"</string>
+    <string name="CV_YELLOW_SPUTUM">"Is your sputum yellow?"</string>
+    <string name="CV_ZERO_YES">"You don't exhibit enough symptoms at this point to get an accurate assessment. Should your symptoms change, or if you develop new symptoms you may try again. If you are concerned about your health and COVID-19, you should review local guidance and contact a health care professional accordingly."</string>
+    <string name="DEMOGRAPHICS_TITLE">"Demographics"</string>
+
+    <!-- Fuzzy -->
+    <string name="Q_DIABETES">"Are you diabetic?"</string>
+    <string name="DISCLAIMER_AGREEMENT">"By tapping AGREE, you agree to the
+{TOU} and {PP}"</string>
+    <string name="DISCLAIMER_CAMERA">"The camera is used to locate your face and extract your facial blood flow data for processing. It's important for you to know that your video images are never saved while performing a measurement. 
+
+Don't forget that Anura™ is not a substitute for the clinical judgment of a health care professional. Anura™ is intended to improve your awareness of general wellness. Anura™ does not diagnose, treat, mitigate or prevent any disease, symptom, disorder or abnormal physical state. Consult with a health care professional or emergency services if you believe you may have a medical issue.
+
+Use of this app on a mobile network may incur data usage charges."</string>
+    <string name="DISCLAIMER_DONT_AGREE">"I do not agree"</string>
+    <string name="DISCLAIMER_SIGNUP">"By tapping Sign Up, you agree to the {TOU} and {PP}"</string>
+    <string name="DISCLAIMER_TITLE">"Disclaimer"</string>
+    <string name="DISCLAIMER_UNDERAGE">"Anura is not intended for children under 13 years old"</string>
+    <string name="DOB_YYYY_MM">"DOB ( YYYY.M )"</string>
+    <string name="ERR_CAMERA_CALIBRATION_TIMEOUT">"Could not calibrate camera
+Restarting calibration..."</string>
+    <string name="ERR_CONFLICT_EMAIL">"A user with that email address already exists
+Try logging in instead"</string>
+    <string name="ERR_CONFLICT_PHONE">"A user with that phone number already exists
+Try logging in instead"</string>
+    <string name="ERR_CONSTRAINT_BRIGHTNESS">"Your face was too bright
+Please try to dim the lights"</string>
+    <string name="ERR_CONSTRAINT_DARKNESS">"Your face was not well lit
+Please try better lighting"</string>
+    <string name="ERR_CONSTRAINT_DISTANCE">"Please move closer to the camera and try again"</string>
+    <string name="ERR_CONSTRAINT_FPS">"The camera is not maintaining the required frame rate
+Please try closing all background applications"</string>
+    <string name="ERR_CONSTRAINT_GAZE">"Please directly face the camera throughout the measurement"</string>
+    <string name="ERR_CONSTRAINT_MOVEMENT">"Please hold still throughout the measurement"</string>
+    <string name="ERR_CONSTRAINT_NO_NETWORK">"To use Anura, please make sure you're connected to WiFi or a mobile network"</string>
+    <string name="ERR_CONSTRAINT_POSITION">"Please keep your face centred within the outline throughout the measurement"</string>
+    <string name="ERR_CONSTRAINT_TOO_FAR">"Please move closer to the camera and keep your face centred within the outline throughout the measurement"</string>
+    <string name="ERR_EMAIL_LOGIN_FAILED">"Email/Password combination is incorrect
+Please try again"</string>
+    <string name="ERR_EMAIL_NOT_FOUND">"A user with this email address was not found"</string>
+    <string name="ERR_MSG_ANALYZER_FAILED">"There was an error analyzing your results
+Please try again"</string>
+    <string name="ERR_MSG_MEASUREMENT_FAILED">"Anura is unable to process this measurement.
+Please check your network connection and try again."</string>
+    <string name="ERR_MSG_MEASUREMENT_TIMEOUT">"Data could not be sent for analysis
+Please check your network connection and try again."</string>
+    <string name="ERR_MSG_NO_NETWORK">"You are not connected to the internet"</string>
+    <string name="ERR_MSG_SNR">"The blood flow measurement was not reliable
+Please try to allow the light to fall evenly across your face while holding still"</string>
+    <string name="ERR_MSG_SNR_SHORT">"Please try to allow the light to fall evenly across your face while holding still"</string>
+    <string name="ERR_NOTE_LOAD">"Failed to load note"</string>
+    <string name="ERR_NOTE_SAVE">"There was an error saving the note"</string>
+    <string name="ERR_PASSWORD_RESET">"Your password could not be reset"</string>
+    <string name="ERR_PASSWORD_SHORT">"Your password must be at least {NUM} characters long"</string>
+    <string name="ERR_PHONE_NOT_FOUND">"A user with this mobile number was not found"</string>
+    <string name="ERR_SERVER_CONNECTION">"Unable to connect to the server"</string>
+    <string name="ERR_TIMEOUT">"Please make sure you are connected to WiFi or a mobile network"</string>
+    <string name="ERR_TITLE_ANALYZER_FAILED">"Analyzer Failed"</string>
+    <string name="ERR_TITLE_MEASUREMENT_FAILED">"Measurement failed"</string>
+    <string name="ERR_TITLE_MEASUREMENT_TIMEOUT">"Request timed out"</string>
+    <string name="ERR_TURN_OFF_LOW_POWER_MODE">"Please disable Low Power Mode before continuing"</string>
+    <string name="FORM_VALIDATION_ELEMENT_INVALID">"{ELEMENT} is invalid"</string>
+    <string name="FORM_VALIDATION_ELEMENT_REQUIRED">"{ELEMENT} is required"</string>
+    <string name="FORM_VALIDATION_ELEMENT_UNDERFLOW">"{ELEMENT} cannot be under {LIMIT}"</string>
+    <string name="GUEST_INFO_SAVE_DESC">"Information will not be saved using this mode"</string>
+    <string name="HINT_DOT">"..."</string>
+    <string name="HISTORY_ADD_NOTE">"Add a Note"</string>
+    <string name="HISTORY_AVG_W_M">"Values shown are daily averages"</string>
+    <string name="HISTORY_AVG_Y">"Values shown are monthly averages"</string>
+    <string name="HISTORY_D">"D"</string>
+    <string name="HISTORY_EMPTY">"You have no results yet. Tap the circle to take your first measurement!"</string>
+    <string name="HISTORY_LIST">"List"</string>
+    <string name="HISTORY_M">"M"</string>
+    <string name="HISTORY_NO_MEASUREMENT">"You have not taken any measurements yet!"</string>
+    <string name="HISTORY_NO_RESULTS">"No results available!"</string>
+    <string name="HISTORY_NOTE">"Note"</string>
+    <string name="HISTORY_NOTE_PROMPT">"What is significant to you about this measurement?
+Is it a specific event, what you are doing, where you are etc..."</string>
+    <string name="HISTORY_TITLE">"History"</string>
+    <string name="HISTORY_TREND">"Trend"</string>
+    <string name="HISTORY_VIEW_NOTE">"View Note"</string>
+    <string name="HISTORY_W">"W"</string>
+    <string name="HISTORY_Y">"Y"</string>
+    <string name="INFO_BMI">"Body Mass Index (BMI) is a measure of an individual&amp;rsquo;s tissue mass (muscle, fat, and bone) adjusted for height. It is a commonly used indicator of overall body fat and serves as a tool for categorizing individuals as being underweight, normal weight, overweight, or obese on the basis of health risk.
+
+Body Mass Index is a fair predictor of cardiovascular diseases, type 2 diabetes, gallstones, and certain cancers. It is the one of the best anthropometric predictors of high-density lipoprotein (HDL) and triglyceride levels; these are important factors for cardio-metabolic diseases. It is also one of the best anthropometric predictors of uric acid levels (high uric acid levels contribute to gallstones). A limitation of Body Mass Index is that it cannot distinguish between fat and muscle mass and thus can be inaccurate in muscular individuals.
+
+You can calculate your Body Mass Index using the formula:
+BMI = weight (kg) / height (m&amp;sup2;)
+
+According to the **World Health Organization**:
+
+| BMI | Weight Status |
+| --- | --- |
+| Below 18.5 | Underweight |
+| 18.5-24.9 | Normal weight |
+| 25.0-29.9 | Pre-obesity |
+| 30.0-34.9 | Obesity Class I |
+| 35.0-39.9 | Obesity Class II |
+| 40 or above | Obesity Class III |
+
+For more information, see: Zhou, W., Wang, Y., Gu, X., Feng, Z. P., Lee, K., Peng, Y., &amp; Barszczyk, A. (2020) Importance of general adiposity, visceral adiposity and vital signs in predicting blood biomarkers using machine learning. _International Journal of Clinical Practice_, e13664."</string>
+    <string name="INFO_BMI_CN">"Body Mass Index (BMI) is a measure of an individual&amp;rsquo;s tissue mass (muscle, fat, and bone) adjusted for height. It is a commonly used indicator of overall body fat and serves as a tool for categorizing individuals as being underweight, normal weight, overweight, or obese on the basis of health risk.
+
+Body Mass Index is a fair predictor of cardiovascular diseases, type 2 diabetes, gallstones, and certain cancers. It is the one of the best anthropometric predictors of high-density lipoprotein (HDL) and triglyceride levels; these are important factors for cardio-metabolic diseases. It is also one of the best anthropometric predictors of uric acid levels (high uric acid levels contribute to gallstones). A limitation of Body Mass Index is that it cannot distinguish between fat and muscle mass and thus can be inaccurate in muscular individuals.
+
+You can calculate your Body Mass Index using the formula:
+BMI = weight (kg) / height (m&amp;sup2;)
+
+According to the **World Health Organization**:
+
+| BMI | Weight Status |
+|---|---|
+| Below 18.5 | Underweight |
+| 18.5-24.9| Normal weight |
+| 25.0-29.9 | Pre-obesity |
+| 30.0-34.9 | Obesity Class I |
+| 35.0-39.9 | Obesity Class II |
+| 40 or above | Obesity Class III |
+
+For more information, see: Zhou, W., Wang, Y., Gu, X., Feng, Z. P., Lee, K., Peng, Y., &amp; Barszczyk, A. (2020) Importance of general adiposity, visceral adiposity and vital signs in predicting blood biomarkers using machine learning. _International Journal of Clinical Practice_, e13664."</string>
+    <string name="INFO_BP_DIA">"Diastolic blood pressure is the amount of pressure in your brachial arteries when your heart muscle is relaxed, measured in millimetres of mercury (mmHg).
+
+#### Diastolic blood pressure levels in the USA:
+
+According to the [American Heart Association and the American College of Cardiology](https://www.ahajournals.org/doi/10.1161/HYP.0000000000000065), high blood pressure (hypertension) is defined as the following:
+
+|  | Diastolic Blood Pressure (mmHg) |
+|--|--|
+| Normal | &lt; 80 |
+| Hypertension | ≥ 80 |
+
+#### Diastolic blood pressure levels elsewhere:
+
+According to the [European Society of Cardiology and the European Society of Hypertension](https://academic.oup.com/eurheartj/article/39/33/3021/5079119), high blood pressure (hypertension) is defined as the following:
+
+|  | Diastolic Blood Pressure (mmHg) |
+|--|--|
+| Optimal | &lt; 80 |
+| Normal | 80 - 84 |
+| High Normal | 85 - 89 |
+| Hypertension | ≥ 90 |
+
+#### DISCLAIMER:
+
+Anura is not a medical device and should not be used for medical purposes. Always consult with your physician or other medical professional should you have any health-related question, issues or emergency.
+
+#### Accuracy of blood pressure estimates:
+
+In a study published in the [American Heart Association journal – Circulation: Cardiovascular Imaging (Vol. 12, No. 8)](https://www.ahajournals.org/doi/10.1161/CIRCIMAGING.119.008857) the proprietary technique used by Anura called Transdermal Optical Imaging (TOI) has been shown to measure blood pressure with an average overall accuracy of 95% over the following ranges:
+
+-   Systolic: 100 - 139 mmHg
+-   Diastolic: 60 – 89 mmHg"</string>
+    <string name="INFO_BP_SYS">"Systolic blood pressure is the peak pressure in your brachial arteries during the contraction of your heart muscle, measured in millimetres of mercury (mmHg).
+
+#### Systolic blood pressure levels in the USA:
+
+According to the [American Heart Association and the American College of Cardiology](https://www.ahajournals.org/doi/10.1161/HYP.0000000000000065), high blood pressure (hypertension) is defined as the following:
+
+|  | Systolic Blood Pressure (mmHg) |
+|---|---|
+| Normal | &lt; 120 |
+| Elevated | 120 - 129 |
+| Hypertension | ≥ 130 |
+
+#### Systolic blood pressure levels elsewhere:
+
+According to the [European Society of Cardiology and the European Society of Hypertension](https://academic.oup.com/eurheartj/article/39/33/3021/5079119), high blood pressure (hypertension) is defined as the following:
+
+|  | Systolic Blood Pressure (mmHg) |
+|---|---|
+| Optimal | &lt; 120 |
+| Normal | 120 - 129 |
+| High Normal | 130 - 139 |
+| Hypertension | ≥ 140 |
+
+#### DISCLAIMER:
+
+Anura is not a medical device and should not be used for medical purposes. Always consult with your physician or other medical professional should you have any health-related question, issues or emergency.
+
+#### Accuracy of blood pressure estimates:
+
+In a study published in the [American Heart Association journal – Circulation: Cardiovascular Imaging (Vol. 12, No. 8)](https://www.ahajournals.org/doi/10.1161/CIRCIMAGING.119.008857) the proprietary technique used by Anura called Transdermal Optical Imaging (TOI) has been shown to measure blood pressure with an average overall accuracy of 95% over the following ranges:
+
+-   Systolic: 100 - 139 mmHg
+-   Diastolic: 60 – 89 mmHg"</string>
+    <string name="INFO_BREATHING">"The normal resting breathing rate for adults is between 12 and 25 breaths per minute. A slower breathing rate may be caused by certain medications or suggest an underlying medical condition, for example, hypothyroidism, heart condition, electrolyte imbalance, etc. A faster breathing rate could have many causes including walking fast or exercise, asthma, anxiety, infection, or cardiovascular condition. You may want to consult your doctor if your breathing rate falls outside of the normal range."</string>
+    <string name="INFO_BSI">"Body Shape Index is a measure of abdominal region size (as determined by waist circumference) relative to overall body size (as determined by Body Mass Index and height). A low Body Shape Index corresponds to a ‘chilli pepper'-shaped body. As BSI increases, body shape resembles a pear, then a pineapple, and then an apple. A larger abdominal region suggests elevated levels of deep abdominal fat, which is associated with various health risks.
+
+Body Shape Index is a particularly good predictor of mortality (from all causes), as well as a fair predictor of diabetes and cardiovascular diseases. It is associated with elevated triglyceride levels, which may partially contribute to the development of cardiovascular diseases.
+
+For more information, see: Zhou, W., Wang, Y., Gu, X., Feng, Z. P., Lee, K., Peng, Y., &amp; Barszczyk, A. (2020) Importance of general adiposity, visceral adiposity and vital signs in predicting blood biomarkers using machine learning. _International Journal of Clinical Practice_, e13664."</string>
+    <string name="INFO_CARDIACWORKLOAD">"Cardiac Workload, or more precisely myocardial workload, is a measure of the stress put on the heart muscle.
+
+Cardiac Workload can be calculated using the formula: Heart Rate x Systolic Blood Pressure.
+
+When measured at rest, this index can be used as an indicator of cardiovascular health.
+
+For example, a person who exercises regularly may have lower Cardiac Workload than another person who has a sedentary lifestyle. During intense physical exercise, your Cardiac Workload may increase but should decrease post-exercise."</string>
+    <string name="INFO_CVD_RISK">"Cardiovascular Disease Risk is your likelihood of experiencing your first heart attack or stroke within the next 10 years, expressed as a percentage.
+
+This risk score considers your gender, age, Body Mass Index, systolic blood pressure and antihypertensive medication status, as well as your smoking status and diabetes status when available. It was developed using the Framingham method. It is based on data from prospective studies that followed participants' cardiovascular health for over 10 years."</string>
+    <string name="INFO_DISCLAIMER">"This content is for informational purposes only and is not a substitute for the judgment of a health care professional. It is intended to improve awareness of general wellness."</string>
+    <string name="INFO_GWS">"General Wellness Score is a measure of your overall physiological health based on a combined calculation of your most essential vitals including:
+
+- Heart rate
+- Stress
+- Blood Pressure
+- Heart Rate Variability
+- Body Mass Index
+- Cardiac Workload
+- Waist-to-height Ratio
+- Body Shape Index
+- Cardiovascular Disease Risks
+
+The higher your General Wellness Score, the better your health."</string>
+    <string name="INFO_HEART_ATTACK_RISK">"Heart Attack Risk is your likelihood of experiencing your first heart attack within the next 10 years, expressed as a percentage.
+
+This risk score considers your gender, age, Body Mass Index, systolic blood pressure and antihypertensive medication status, as well as your smoking status and diabetes status when available. It was developed using the Framingham method. It is based on data from prospective studies that followed participants' cardiovascular health for over 10 years."</string>
+    <string name="INFO_HR_1">"An unusually high or low resting heart rate may be an indicator of an underlying problem. Consult a medical professional if you're not a trained athlete and your resting heart rate is below 60 beats per minute (bpm) - especially if you have other signs or symptoms such as fainting, dizziness or shortness of breath.
+
+Resting heart rate can be influenced by many factors, including, but not limited to, the following:
+
+- Fitness level
+- Age
+- Cardiovascular disease
+- Smoking
+- Medications
+- Body position (e.g. standing, sitting or lying down)
+
+If you are concerned about your resting heart rate or have further questions, please consult with a medical professional.
+
+For additional information on resting heart rate, see Mayo Clinic's \"[What's a normal resting heart rate?](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.)\" or the American Heart Association's \"[Know Your Target Heart Rates for Exercise, Losing Weight and Health](https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates)\" and \"[All About Heart Rate (Pulse)](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse)\"."</string>
+    <string name="INFO_HR_2">"A range of 60 to 100 beats per minute (bpm) is considered a normal range for an adult's resting heart rate.
+
+Resting heart rate can be influenced by many factors, including, but not limited to, the following:
+
+- Fitness level
+- Age
+- Cardiovascular disease
+- Smoking
+- Medications
+- Body position (e.g. standing, sitting or lying down)
+
+In general, a lower resting heart rate is indicative of more efficient heart function and better cardiovascular fitness. Athletes can have a normal resting heart rate below 60 bpm with some having resting heart rates closer to 40 bpm.
+
+If you are concerned about your resting heart rate or have further questions, please consult with a medical professional.
+
+For additional information on resting heart rate, see Mayo Clinic's \"[What's a normal resting heart rate?](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.)\" or the American Heart Association's \"[Know Your Target Heart Rates for Exercise, Losing Weight and Health](https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates)\" and \"[All About Heart Rate (Pulse)](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse)\"."</string>
+    <string name="INFO_HR_3">"An unusually high or low resting heart rate may be an indicator of an underlying problem. Consult a medical professional  if your heart rate is consistently above 100 beats per minute (bpm) -  especially if you have other signs or symptoms such as fainting, dizziness or shortness of breath.
+
+Resting heart rate can be influenced by many factors, including, but not limited to, the following:
+
+- Fitness level
+- Age
+- Cardiovascular disease
+- Smoking
+- Medications
+- Body position (e.g. standing, sitting or lying down)
+
+If you are concerned about your resting heart rate or have further questions, please consult with a medical professional.
+
+For additional information on resting heart rate, see Mayo Clinic's \"[What's a normal resting heart rate?](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.)\" or the American Heart Association's \"[Know Your Target Heart Rates for Exercise, Losing Weight and Health](https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates)\" and \"[All About Heart Rate (Pulse)](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse)\"."</string>
+    <string name="INFO_HR_TITLE_1">"Below Normal Range - Resting Heart Rate"</string>
+    <string name="INFO_HR_TITLE_2">"Normal Range - Resting Heart Rate"</string>
+    <string name="INFO_HR_TITLE_3">"Above Normal Range - Resting Heart Rate"</string>
+    <string name="INFO_HRV">"Heart Rate Variability refers to the variability in the timing between one heartbeat and the next. Anura measures this with SDNN, which is the standard deviation of the interval between normal heartbeats (in milliseconds). A higher SDNN corresponds to more inter-beat variability.
+
+Increased heart rate variability suggests an increase in parasympathetic activity and/or a decrease in sympathetic activity of the autonomic nervous system. 
+
+High resting heart rate variability is considered healthy and means that the heart is more flexible to the changing needs of the body.
+"</string>
+    <string name="INFO_IHB">"The number displayed is the number of irregular heartbeats Anura detected in 30 seconds. 
+
+An irregular heartbeat is one that occurs outside of your heart's normal rhythm. The beat may have occurred sooner than expected or your heart may have seemed to 'skip' a beat. Sometimes it can feel like a thump in your chest, or the feeling that your heart is beating quickly or fluttering.
+
+Irregular heartbeats are usually harmless. Most often they are triggered by things that increase adrenaline in the body like anxiety, caffeine, and nicotine.
+
+In rare cases, they could indicate a more serious condition like an electrolyte imbalance or a heart condition. You should consult your doctor if you have a persistent irregular heartbeat. You should seek immediate medical attention if the onset of irregular heartbeats is combined with other symptoms of a heart problem like dizziness, chest pain, or shortness of breath."</string>
+    <string name="INFO_SKINAGE">"Skin Age is an estimate of your age based on the condition of the surface of your face.
+
+This estimation can be used as an indicator for your facial skin aging.
+
+This estimation may be influenced by many factors such as fatigue level, the use of skincare or cosmetics products.
+
+Video images taken in poor lighting conditions (e.g., backlighting, overhead lighting) may distort the estimation of your facial skin age."</string>
+    <string name="INFO_STARS">"### What do the stars mean?
+
+Anura uses a 5-star rating system to let you know the quality of your measurement based on the lighting conditions that illuminate your face.
+
+#### ★ ★ ★ ★ ★ 4 - 5 stars
+
+Good lighting conditions. You have well lit conditions and the light is spread evenly (i.e. no shadows) across your face.
+
+#### ★ ★ ★ ☆ ☆ 2 - 3 stars
+
+Adequate light conditions. The light on your face is sufficient enough (i.e. not too low) and spread evenly enough across your face. 
+
+#### ★ ☆ ☆ ☆ ☆ 1 star
+
+Poor lighting conditions. The light on your face is too low and uneven or there was too much movement after the measurement started."</string>
+
+    <!-- Fuzzy -->
+    <string name="INFO_STRESS_1">"- A well below normal stress results in a very low Anura Stress Index (ASI) that is ideal for maintaining good mental and physical health
+- An ASI reading this low suggests the possibility that at this moment, you have nothing to worry about in your life or are in a state of deep relaxation
+- However, you may also not be experiencing enough mental arousal to keep you alert in certain tasks. A minimum stress is useful while engaged with daily activities or chores
+
+Just as your resting heart rate can vary constantly it is also normal for stress levels to change constantly. This is because your heart rate variability (HRV) is also changing constantly. As a result it is not unusual to experience variations in your Anura Stress Index results by as much as 1.0 when you take consecutive measurements."</string>
+    <string name="INFO_STRESS_2">"- Your below normal stress reading results in a lower Anura Stress Index (ASI) that is beneficial for long term psychological and physical health
+- Receiving ASI readings in this zone are most suitable for the home or leisure environments
+- The ability to activate this lower level of mental arousal may facilitate concentration in difficult or unfamiliar tasks
+
+Just as your resting heart rate can vary constantly it is also normal for stress levels to change constantly. This is because your heart rate variability (HRV) is also changing constantly.   As a result it is not unusual to experience variations in your Anura Stress Index results by as much as 1.0 when you take consecutive measurements."</string>
+    <string name="INFO_STRESS_3">"- Currently, your normal stress results in a moderate Anura stress Index (ASI) that is not considered harmful to your psychological and physical health.
+- Most people work optimally having an ASI within this stress zone.
+- However, if your stress remains within this zone under all situations, including moments of relaxation, then you may benefit from learning effective relaxation techniques
+
+Just as your resting heart rate can vary constantly it is also normal for stress levels to change constantly. This is because your heart rate variability (HRV) is also changing constantly.   As a result it is not unusual to experience variations in your Anura Stress Index results by as much as 1.0 when you take consecutive measurements."</string>
+    <string name="INFO_STRESS_4">"- Experiencing higher than normal stress resulting in a higher Anura Stress Index (ASI) that allows you to improve short term performance by boosting your motivation to do more difficult tasks, particularly those requiring stamina or persistence
+- During exposure to this level of stress, you may experience mental or physical strain
+- However, ASI readings in this zone should not be a constant part of your life. Otherwise, it may negatively affect your long term psychological and physical health outcomes
+
+Just as your resting heart rate can vary constantly it is also normal for stress levels to change constantly. This is because your heart rate variability (HRV) is also changing constantly.   As a result it is not unusual to experience variations in your Anura Stress Index results by as much as 1.0 when you take consecutive measurements."</string>
+    <string name="INFO_STRESS_5">"- You are experiencing a significantly higher than normal stress indicated by a very high Anura Stress Index (ASI) meaning that you will likely encounter impaired performance on certain tasks due to higher than normal anxiety
+- You may feel unable to calm yourself. Stop what you are doing and take slow, deep breaths. You should also avoid drinking caffeinated beverages like coffee
+- Reducing the causes of your stress and engaging in calming activities may help restore your stress balance including practicing deep breathing, yoga, or meditation daily
+- Be aware that prolonged periods of time spent experiencing such elevated ASI readings has the potential to cause health complications
+
+Just as your resting heart rate can vary constantly it is also normal for stress levels to change constantly. This is because your heart rate variability (HRV) is also changing constantly.   As a result it is not unusual to experience variations in your Anura Stress Index results by as much as 1.0 when you take consecutive measurements."</string>
+    <string name="INFO_STRESS_STATE">"State"</string>
+
+    <!-- Fuzzy -->
+    <string name="INFO_STRESS_TITLE_4">"Vigilant"</string>
+    <string name="INFO_STRESS_TITLE_1">"Extremely Relaxed"</string>
+    <string name="INFO_STRESS_TITLE_2">"Relaxed"</string>
+    <string name="INFO_STRESS_TITLE_3">"Productive"</string>
+    <string name="INFO_STRESS_TITLE_5">"Overloaded"</string>
+    <string name="INFO_STROKE_RISK">"Stroke Risk is your likelihood of experiencing your first stroke within the next 10 years, expressed as a percentage.
+
+This risk score considers your gender, age, Body Mass Index, systolic blood pressure and antihypertensive medication status, as well as your smoking status and diabetes status (males only) when available. It was developed using the Framingham method. It is based on data from prospective studies that followed participants' cardiovascular health for over 10 years."</string>
+    <string name="INFO_TAB_FIVE">"5"</string>
+    <string name="INFO_TAB_FOUR">"4"</string>
+    <string name="INFO_TAB_ONE">"1"</string>
+    <string name="INFO_TAB_THREE">"3"</string>
+    <string name="INFO_TAB_TWO">"2"</string>
+    <string name="INFO_VASCULARAGE">"Vascular Age is an estimate of your age based on the condition of the blood flow characteristics beneath your facial skin.
+
+This estimation can be used as an indicator for your facial vascular aging."</string>
+    <string name="INFO_VASCULARCAPACITY">"Vascular Capacity, or Tau, is a measure of the elasticity of your blood vessels.
+
+Vascular Capacity can be calculated using the formula: R (Vascular Resistance) x C (Arterial Compliance).
+
+When measured at rest, this index can be used as an indicator of cardiovascular health as it is strongly correlated with vascular stiffness.
+
+A person with a high Tau has better vascular health than a person with a low Tau. Also, certain transient activities and physiological events can lead to immediate changes in Tau (e.g., drinking alcohol, smoking)."</string>
+    <string name="INFO_WATHR">"Waist-to-height ratio is an individual's waist circumference expressed as a percentage of their height (with both measured in the same units). Individuals with elevated waist-to-height ratio have a larger abdominal region in proportion to their height, suggesting elevated levels of deep abdominal fat. Such fat is associated with various health risks.
+
+Waist-to-height ratio is a particularly good predictor of cardiovascular disease risk. It is associated with cardiovascular disease risk factors like elevated total cholesterol and lower high-density lipoprotein (HDL).
+
+On average, Anura will estimate your waist-to-height ratio to within 4 percentage points of its actual value.
+
+For more information, see: Zhou, W., Wang, Y., Gu, X., Feng, Z. P., Lee, K., Peng, Y., &amp; Barszczyk, A. (2020) Importance of general adiposity, visceral adiposity and vital signs in predicting blood biomarkers using machine learning. _International Journal of Clinical Practice_, e13664."</string>
+    <string name="INSTRUCTION_BAD_DIRECTION">"Anura won't work well if:
+The face is not facing the camera, or the distance is too far or too close to the camera"</string>
+    <string name="INSTRUCTION_BAD_FACE">"Anura won't work well if:
+There are objects taking up majority of the face, for example glasses or hat"</string>
+    <string name="INSTRUCTION_BAD_LIGHT">"Anura won't work well if:
+The light is too bright or too dark, or uneven on the face. Try to avoid backlight"</string>
+    <string name="INSTRUCTION_BEST_RESULTS">"For best results mount your phone on a stand to prevent shaking and a selfie light to ensure even lighting across your face"</string>
+    <string name="INSTRUCTION_LIGHT_EVEN">"Make sure light is evenly distributed on the face for best results
+Keep your face centred within the outline throughout the measurement"</string>
+    <string name="INSTRUCTION_SIT_STILL">"When measurement has started, sit still for 30 seconds until the measurement is completed"</string>
+    <string name="INSTRUCTION_TAP_DIAL">"Once you get your results, tap on the dials to learn more about each measurement"</string>
+    <string name="INSTRUCTION_TITLE">"How to Use"</string>
+    <string name="INSTRUCTION_WELL_LIT">"Choose a well-lit area and sit comfortably
+Please rest the phone on a tabletop or steady surface to prevent shaking
+Shaking will affect the measurement results"</string>
+    <string name="LANDING_BUBBLE">"Hi, I'm Anura.
+Your personal health A.I."</string>
+    <string name="LANDING_GET_STARTED">"Get Started"</string>
+    <string name="LANDING_GRANT_CAMERA">"Grant Camera Access"</string>
+    <string name="LANDING_LOGIN">"I already have an account"</string>
+    <string name="LANDING_WELCOME">"Hi, I'm Anura. 
+Let's begin your 30s Health Check."</string>
+    <string name="LOADING_ANALYZING_DATA">"Analyzing Data"</string>
+    <string name="LOADING_ASK_DOCTOR">"Ask your doctor about improving your health scores through diet and exercise."</string>
+    <string name="LOADING_BP_CHANGE">"Your blood pressure may change after meals, exercise or smoking."</string>
+    <string name="LOADING_CVD_AGE">"Cardiovascular disease risk increases with age."</string>
+    <string name="LOADING_LOW_STRESS">"Maintaining a low Stress Index is beneficial to your mental and physical health."</string>
+    <string name="LOADING_REST_ONE_MIN">"Measure your vitals after resting for at least 1 minute."</string>
+    <string name="LOADING_SENDING_DATA">"Sending Data"</string>
+    <string name="LOADING_STAR_RATING">"5-star lighting conditions produce the most reliable measurements."</string>
+    <string name="LOGIN_ERROR_EMAIL">"We no longer allow email address login, please login with your phone number"</string>
+    <string name="LOGIN_REQUEST_CODE">"Request Code"</string>
+    <string name="LOGIN_RESET_PASSWORD">"Reset Password"</string>
+    <string name="LOGIN_VERIFICATION_CODE">"Verification Code"</string>
+
+    <!-- Fuzzy -->
+    <string name="LOGIN_VERIFY_ACCOUNT">"Verify Your Account"</string>
+    <string name="MEASUREMENT_CANCELED">"Measurement cancelled"</string>
+    <string name="MEASURING_COUNTDOWN">"Measurement starting in..."</string>
+    <string name="MEASURING_GUEST">"Measuring guest"</string>
+    <string name="MEASURING_MSG_DEFAULT">"Please centre your face within the outline"</string>
+    <string name="MEASURING_PERFECT">"Perfect! Please hold still"</string>
+    <string name="MEASURING_SELF">"Measuring {NICKNAME}"</string>
+    <string name="MEASURING_STARTED">"Measurement Started
+Please hold still"</string>
+    <string name="MSG_COMING_SOON">"All your measurement results will be saved going forward as long as you are logged in."</string>
+    <string name="MSG_ENTERPRISE_CONFIRMATION">"Please confirm that you would like to join the {ENT_NAME} organization"</string>
+    <string name="MSG_INVALID_QR_CODE">"This QR Code is not valid. Make sure that you scan the QR code provided to you by NuraLogix"</string>
+    <string name="MSG_INVALID_QR_CODE_TITLE">"Invalid QR Code"</string>
+    <string name="MSG_NEED_HELP">"Need Help?"</string>
+    <string name="MSG_SAVING">"Saving..."</string>
+    <string name="MSG_STUDY_CONFIRMATION">"Please confirm that you would like to join the {STUDY_NAME} study"</string>
+    <string name="MSG_SUCCESS">"Success!"</string>
+    <string name="NOTE_LOADING">"Loading Note"</string>
+    <string name="NSCameraUsageDescription">"The camera will be used to take your measurements"</string>
+    <string name="NSPhotoLibraryAddUsageDescription">"Results will be saved to your photo library"</string>
+    <string name="NSPhotoLibraryUsageDescription">"We need to access your photos to save videos of your measurements"</string>
+    <string name="PASSWORD_ERROR_MATCH">"Passwords don't match. Please re-enter your password"</string>
+    <string name="PASSWORD_PROMPT">"Password"</string>
+    <string name="PASSWORD_RESET_EMAIL">"You will receive an email to reset your password"</string>
+    <string name="PASSWORD_RESET_EMAIL_CHECK">"Check your email for a link to reset your password"</string>
+    <string name="PASSWORD_RESET_TITLE_EMAIL">"Please enter your email address"</string>
+    <string name="PASSWORD_TITLE">"Password"</string>
+    <string name="POPUP_LICENSE_EXPIRY">"You are required to update Anura to continue using it"</string>
+    <string name="PRIVACY_POLICY">"Privacy Policy"</string>
+    <string name="PROFILE_AGE">"Age"</string>
+    <string name="PROFILE_BP_MEDICATION">"BP Medication"</string>
+    <string name="PROFILE_BP_STANDARD">"Measurement Standard (0=Standard, 1=Over Sleeve)"</string>
+    <string name="PROFILE_DAY">"Day"</string>
+    <string name="PROFILE_DESCRIPTION">"Tell us about yourself"</string>
+    <string name="PROFILE_DIABETES">"Diabetes"</string>
+    <string name="PROFILE_DOB">"Date Of Birth"</string>
+    <string name="PROFILE_ERROR_HEIGHT_WEIGHT">"The height and weight you entered don't seem right. Please check again"</string>
+    <string name="PROFILE_FEMALE">"Female"</string>
+    <string name="PROFILE_FORGOT_PASSWORD">"I forgot my password!"</string>
+    <string name="PROFILE_FOUNDATION_BB_CREAM">"Foundation or BB Cream"</string>
+    <string name="PROFILE_GENDER">"Gender"</string>
+    <string name="PROFILE_GENDER_OTHER">"Other"</string>
+    <string name="PROFILE_GREETING">"Welcome back"</string>
+    <string name="PROFILE_HEADER">"Hello, I'm Anura! 
+Before we start, please tell me about yourself."</string>
+    <string name="PROFILE_HEADER_GUEST">"Hello, friend of {NICKNAME}!
+Before we start, please tell me about yourself."</string>
+    <string name="PROFILE_HEIGHT">"Height"</string>
+    <string name="PROFILE_HYPERTENSION">"Hypertension"</string>
+    <string name="PROFILE_HYPOTENSION">"Hypotension"</string>
+    <string name="PROFILE_MAKEUP">"Have you applied any of the following today (0 = No, 1 = Yes)"</string>
+    <string name="PROFILE_MAKEUP_TITLE">"Makeup"</string>
+    <string name="PROFILE_MALE">"Male"</string>
+    <string name="PROFILE_MEDICAL_CONDITIONS_TITLE">"Please indicate whether you have the following conditions (0 = No, 1 = Yes)"</string>
+    <string name="PROFILE_MONTH">"Month"</string>
+    <string name="PROFILE_NAME">"Name"</string>
+    <string name="PROFILE_NICKNAME">"Nickname"</string>
+    <string name="PROFILE_NICKNAME_GREETING">"Hi, {NICKNAME}"</string>
+    <string name="PROFILE_NICKNAME_LONG">"Nickname (What should Anura call you?)"</string>
+    <string name="PROFILE_NICKNAME_TITLE">"What should Anura call you?"</string>
+    <string name="PROFILE_NURSE">"Nurse"</string>
+    <string name="PROFILE_OVER_CM">"{NUM} cm or over"</string>
+    <string name="PROFILE_OVER_IN">"{NUM}\'{NUM}\\" or over"</string>
+    <string name="PROFILE_OVER_KG">"{NUM} kg or over"</string>
+    <string name="PROFILE_OVER_LBS">"{NUM} lbs or over"</string>
+    <string name="PROFILE_PARTICANT_ID">"Participant ID"</string>
+    <string name="PROFILE_PULSE">"Pulse"</string>
+    <string name="PROFILE_PUPIL_DISTANCE">"Pupil Distance"</string>
+    <string name="PROFILE_RATE_PAIN_TITLE">"Rate your pain from 0 (no pain) to 10 (extremely painful)"</string>
+    <string name="PROFILE_SMOKING">"Smoking"</string>
+    <string name="PROFILE_TEMPERATURE">"Temperature"</string>
+    <string name="PROFILE_UNDER_CM">"{NUM} cm or under"</string>
+    <string name="PROFILE_UNDER_IN">"{NUM}\'{NUM}\\" or under"</string>
+    <string name="PROFILE_UNDER_KG">"{NUM} kg or under"</string>
+    <string name="PROFILE_UNDER_LBS">"{NUM} lbs or under"</string>
+    <string name="PROFILE_WEIGHT">"Weight"</string>
+    <string name="PROFILE_WEIGHT_KG">"Weight ( kg )"</string>
+    <string name="PROFILE_YEAR">"Year"</string>
+    <string name="PW_REQUIREMENTS">"Password must:
+- Be at least 8 characters
+- Have a lower case
+- Have an upper case
+- Contain a symbol: !@#$%^&amp;*()-_"</string>
+    <string name="Q_BP_MEDICATION">"Are you taking blood pressure medication?"</string>
+    <string name="Q_HYPERTENSION">"Do you have hypertension?"</string>
+    <string name="Q_HYPOTENSION">"Do you have hypotension?"</string>
+    <string name="Q_SMOKING">"Do you smoke?"</string>
+    <string name="RESULT_BMI">"Body Mass Index"</string>
+    <string name="RESULT_BP">"Blood Pressure"</string>
+    <string name="RESULT_BP_DIA">"Diastolic Blood Pressure"</string>
+    <string name="RESULT_BP_DIA_HYPER_RISK">"Diastolic Hypertension Risk"</string>
+    <string name="RESULT_BP_SYS">"Systolic"</string>
+    <string name="RESULT_BP_SYS_HYPER_RISK">"Systolic Hypertension Risk"</string>
+    <string name="RESULT_BP_SYS_TITLE">"Systolic Blood Pressure"</string>
+    <string name="RESULT_BREATHING">"Breathing"</string>
+    <string name="RESULT_BSI">"Body Shape Index"</string>
+    <string name="RESULT_CARDIAC_WORKLOAD">"Cardiac Workload"</string>
+    <string name="RESULT_CVD_RISK">"Cardiovascular Disease Risk"</string>
+    <string name="RESULT_CVD_RISK_SHORT">"CVD Risk"</string>
+    <string name="RESULT_DIASTOLIC">"Diastolic"</string>
+    <string name="RESULT_DISCLAIMER_BOTTOM">"Notice: These numbers are only estimates and are not a substitute for the judgment of a health care professional. They are intended to improve awareness of general wellness."</string>
+    <string name="RESULT_DISCLAIMER_LONG">"Not for Medical Purposes
+OUR SERVICES ARE NOT INTENDED FOR MEDICAL PURPOSES. THE SERVICES DO NOT OFFER ANY KIND OF MEDICAL ADVICE AND ARE NOT INTENDED FOR ANY MEDICAL USE OR PURPOSES. OUR SERVICES ARE INTENDED FOR GENERAL WELLNESS ONLY. 
+
+THE ESTIMATIVE MEASUREMENTS (“MEASUREMENTS”) PROVIDED TO YOU OF PHYSIOLOGICAL AND PSYCHOLOGICAL STATES INCLUDING HEART RATE AND STRESS SHOULD NOT BE TREATED AS MEDICAL ADVICE. THE MEASUREMENTS WE PROVIDE TO YOU ARE NOT INTENDED TO BE UTILIZED FOR ANY MEDICAL PURPOSES OR TO DIAGNOSE, TREAT, CURE OR PREVENT ANY DISEASE, AILMENT OR INJURY. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, YOU EXPRESSLY AGREE WE ARE NOT PROVIDING ANY MEDICAL ADVICE VIA OUR SERVICES. ALL CONTENT PROVIDED BY OUR SERVICES INCLUDING THE MEASUREMENTS IS NOT INTENDED TO BE AND SHOULD NOT BE USED IN PLACE OF (A) THE ADVICE OF YOUR PHYSICIAN OR OTHER MEDICAL PROFESSIONALS, AND (B) A VISIT, CALL OR CONSULTATION WITH YOUR PHYSICIAN OR OTHER MEDICAL PROFESSIONALS. SHOULD YOU HAVE ANY HEALTH-RELATED QUESTIONS, PLEASE CALL OR SEE YOUR PHYSICIAN OR OTHER HEALTHCARE PROVIDER PROMPTLY. IF YOU HAVE AN EMERGENCY, CALL YOUR PHYSICIAN OR YOUR LOCAL EMERGENCY SERVICES IMMEDIATELY. YOUR USE OF OUR SERVICES DOES NOT CONSTITUTE OR CREATE A DOCTOR-PATIENT, THERAPIST-PATIENT OR OTHER HEALTHCARE PROFESSIONAL RELATIONSHIP BETWEEN NURALOGIX AND YOU.
+
+Accuracy
+THE MEASUREMENTS PROVIDED TO YOU ARE BASED ON INDICATORS AND STANDARDS DEVELOPED BY NURALOGIX ITSELF AND ARE ONLY FOR PERSONAL INFORMATION PURPOSES, WITHOUT ANY REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. WHILE WE MAKE EVERY EFFORT TO PROVIDE ACCURATE ESTIMATIVE MEASURES, WE MAKE NO WARRANTY AND DISCLAIM ALL RESPONSIBILITY AND LIABILITY FOR ANY ACCURACY, RELIABILITY, AVAILABILITY, SECURITY, COMPLETENESS OR CORRECT USE OF MEASUREMENTS, CONTENT AND ANY OTHER INFORMATION OR RESULTS YOU RECEIVE THROUGH THE SERVICES.
+"</string>
+    <string name="RESULT_EMOTION">"Emotion"</string>
+    <string name="RESULT_EMOTION_VALENCE">"Emotion Valence"</string>
+    <string name="RESULT_ERR_BR">"Anura was unable to measure your breathing rate.
+
+Please follow the proper guidelines for taking measurements and try again."</string>
+    <string name="RESULT_ERR_CONFIDENCE_BP">"### Oops!
+
+Anura was unable to measure your Blood Pressure. As a result you will not be able to view the following results which are related to Blood Pressure:
+
+-   General Wellness Score
+-   Blood Pressure (Systolic &amp; Diastolic)
+-   Cardiac Workload
+-   Cardiovascular Disease Risks
+-   Heart Attack Risks
+-   Stroke Risks
+
+Please follow the proper guidelines for taking measurements and try again."</string>
+    <string name="RESULT_ERR_MSG_SIGNAL">"Please follow the proper guidelines for taking measurements and try again"</string>
+    <string name="RESULT_ERR_TITLE_SIGNAL">"Oops! Anura was unable to measure your {SIGNAL}"</string>
+    <string name="RESULT_ERROR_IHB">"Oops!
+
+Anura was unable to measure your irregular heartbeat. 
+
+Please follow the proper guidelines for taking measurements and try again."</string>
+    <string name="RESULT_FACIAL_SKIN_AGE">"Facial Skin Age"</string>
+    <string name="RESULT_FACIAL_VASCULAR_AGE">"Facial Vascular Age"</string>
+    <string name="RESULT_GWS">"General Wellness Score"</string>
+    <string name="RESULT_HEART_ATTACK_RISK">"Heart Attack Risk"</string>
+    <string name="RESULT_HEART_RATE">"Heart Rate"</string>
+    <string name="RESULT_HRV">"Heart Rate Variability"</string>
+    <string name="RESULT_IHB">"Irregular Heartbeats"</string>
+    <string name="RESULT_MAP">"Mean Arterial Pressure"</string>
+    <string name="RESULT_MENTAL">"Mental"</string>
+    <string name="RESULT_OVERALL">"Overall"</string>
+    <string name="RESULT_PHYSICAL">"Physical"</string>
+    <string name="RESULT_PHYSIO">"Physiological"</string>
+    <string name="RESULT_PRINT">"Print"</string>
+    <string name="RESULT_PULSE_PRESSURE">"Pulse Pressure"</string>
+    <string name="RESULT_RISKS">"Risks"</string>
+    <string name="RESULT_SCAN_VIEW">"Scan to view your personal health report"</string>
+    <string name="RESULT_SNR">"SNR"</string>
+    <string name="RESULT_SPO2">"Blood Oxygen Saturation"</string>
+
+    <!-- Fuzzy -->
+    <string name="RESULT_STRESS_INDEX">"Stress Index"</string>
+    <string name="RESULT_STROKE_RISK">"Stroke Risk"</string>
+    <string name="RESULT_SUMMARY">"SUMMARY"</string>
+    <string name="RESULT_VASCULAR_CAPACITY">"Vascular Capacity"</string>
+    <string name="RESULT_VITALS">"Vitals"</string>
+    <string name="RESULT_WATHR">"Waist-to-Height Ratio"</string>
+    <string name="RESULTS_TITLE">"Results"</string>
+    <string name="SETTING_CHINA_SERVER">"China Server"</string>
+    <string name="SETTING_INTL_SERVER">"International Server"</string>
+    <string name="SETTING_LOGOUT">"Log Out"</string>
+    <string name="SETTING_LOGOUT_CONFIRM">"Are you sure you want to log out?"</string>
+    <string name="SETTING_MADE_IN_TO">"Made in Toronto"</string>
+    <string name="SETTING_PROFILE">"Profile"</string>
+    <string name="SETTING_PROFILE_SAVE">"Save Profile"</string>
+    <string name="SETTING_RATE_APP">"Rate the App"</string>
+    <string name="SETTING_SEND_FEEDBACK">"Send Feedback"</string>
+    <string name="SETTING_TITLE">"Settings"</string>
+    <string name="SETTING_VERSION_NUM">"Anura {VERSION}"</string>
+    <string name="SETTINGS_LOGGING_OUT_MSG">"Logging Out..."</string>
+    <string name="SETTINGS_STUDY">"Study"</string>
+    <string name="SHARE_MSG_CHINA">"Scan the QR code to follow our Wechat account for more information and download."</string>
+    <string name="SHARE_MSG_INTL">"Tap the link to download Anura."</string>
+    <string name="SHARE_SUMMARY_BTN">"Share Summary"</string>
+    <string name="SIGN_UP_TITLE">"Sign Up"</string>
+    <string name="SIGNUP_CHECK_INBOX">"Please check your inbox"</string>
+    <string name="SIGNUP_EMAIL_SENT">"We've sent an email to {email}"</string>
+    <string name="SIGNUP_ENTER_VERIFICATION_CODE">"Enter verification code"</string>
+    <string name="SIGNUP_LOGIN_BTN">"Sign Up or Log In"</string>
+    <string name="SIGNUP_LOGIN_CANADA">"Canada"</string>
+    <string name="SIGNUP_LOGIN_CELLPHONE_NUM">"Phone Number"</string>
+    <string name="SIGNUP_LOGIN_CHINA">"China"</string>
+    <string name="SIGNUP_LOGIN_EMAIL">"Email"</string>
+    <string name="SIGNUP_LOGIN_TITLE">"To begin using the latest version, please verify it's you"</string>
+    <string name="SIGNUP_MSG">"By signing up, your profile will be saved and all your measurement results will be saved going forward as long as you are logged in."</string>
+    <string name="SSO_CREATE_ACC">"An account will be created automatically if you do not have an existing account"</string>
+    <string name="SSO_TITLE">"or login with"</string>
+    <string name="SSO_WECHAT_INSTALL">"Please first install the WeChat app"</string>
+    <string name="SURVEYS_BTN_SUBTITLE">"and go to Surveys"</string>
+    <string name="SURVEYS_DESCRIPTION">"We are always looking for more ways to help people learn more about their wellness and hence have developed Surveys. 
+
+In Surveys, you will find new tools we are currently developing to assess your wellness and new measurement results. 
+
+By tapping Agree, you understand that the results you will see in Surveys are just for educational purposes. They are not substitutes for the clinical judgment of a health care professional."</string>
+    <string name="SURVEYS_HEADER">"Surveys"</string>
+    <string name="TERMS_OF_USE">"Terms of Use"</string>
+    <string name="UNIT_BEATS30SEC">"beats / 30 seconds"</string>
+    <string name="UNIT_BMI">"kg/m²"</string>
+    <string name="UNIT_BPM">"bpm"</string>
+    <string name="UNIT_BRPM">"brpm"</string>
+    <string name="UNIT_CELSIUS">"°C"</string>
+    <string name="UNIT_CM">"cm"</string>
+    <string name="UNIT_CM2">"cm/cm"</string>
+    <string name="UNIT_DB">"dB"</string>
+    <string name="UNIT_FEET_INCHES">"ft in"</string>
+    <string name="UNIT_IMPERIAL">"Imperial"</string>
+    <string name="UNIT_IN">"in"</string>
+    <string name="UNIT_KG">"kg"</string>
+    <string name="UNIT_LBS">"lbs"</string>
+    <string name="UNIT_METRIC">"Metric"</string>
+    <string name="UNIT_MMHG">"mmHg"</string>
+    <string name="UNIT_MS">"ms"</string>
+    <string name="UNIT_WAIST_CM">"Waist circumference ( cm )"</string>
+    <string name="VERIFY_EMAIL_SENT">"We sent an email to {EMAIL} to verify your account."</string>
+    <string name="VERIFY_HEADER">"Thanks!
+Now check your email"</string>
+    <string name="VERIFY_SPAM">"If you don't see it, you may need to check your spam folder."</string>
+    <string name="VIS_EXPR_ANGER">"Anger"</string>
+    <string name="VIS_EXPR_DISGUST">"Disgust"</string>
+    <string name="VIS_EXPR_FEAR">"Fear"</string>
+    <string name="VIS_EXPR_HAPPINESS">"Happiness"</string>
+    <string name="VIS_EXPR_NEUTRAL">"Neutral"</string>
+    <string name="VIS_EXPR_SADNESS">"Sadness"</string>
+    <string name="VIS_EXPR_SURPRISE">"Surprise"</string>
+    <string name="VIS_EXPR_VALENCE">"Primary Emotion Valence"</string>
+    <string name="VIS_EXPR_VALENCE_NEGATIVE">"Negative"</string>
+    <string name="VIS_EXPR_VALENCE_NEUTRAL">"Neutral"</string>
+    <string name="VIS_EXPR_VALENCE_POSITIVE">"Positive"</string>
+    <string name="WARNING_CONSTRAINT_BACKLIGHT">"The backlight is too strong
+Please try changing position so more light falls directly on the face"</string>
+    <string name="WARNING_CONSTRAINT_BRIGHTNESS">"Your face is too bright
+Please try to dim the lights"</string>
+    <string name="WARNING_CONSTRAINT_DARKNESS">"Your face is not well lit
+Please try better lighting"</string>
+    <string name="WARNING_CONSTRAINT_DISTANCE">"The face is too far
+Please try to move closer to the camera"</string>
+    <string name="WARNING_CONSTRAINT_EXPOSURE">"Please hold still while the camera is calibrating..."</string>
+    <string name="WARNING_CONSTRAINT_FPS">"The camera is not maintaining the required frame rate
+Please try closing all background applications"</string>
+    <string name="WARNING_CONSTRAINT_GAZE">"The view of the face is poor
+Please look directly into the camera"</string>
+    <string name="WARNING_CONSTRAINT_MOVEMENT">"Too much movement
+Please hold still"</string>
+    <string name="WARNING_CONSTRAINT_POSITION">"Try to keep your face within the outline"</string>
+    <string name="WARNING_CONSTRAINT_TOO_CLOSE">"Please move a little further away"</string>
+    <string name="WARNING_CONSTRAINT_TOO_FAR">"Please move a little closer and centre your face within the outline"</string>
+    <string name="WARNING_LOW_POWER_MODE">"For better accuracy, please disable Low Power Mode"</string>
+    <string name="WARNING_SERVER_CONNECTION">"Connecting to the server"</string>
+    <string name="POPUP_32BIT">"This app may not be optimized for your device"</string>
+    <string name="SETTINGS_LEGAL">"Legal"</string>
+    <string name="SETTINGS_UPDATE_CONSENT">"Update Consent"</string>
+
+    <!-- Fuzzy -->
+    <string name="SETTINGS_POPUP_CONSENT">"By withdrawing your consent, your health data will no longer be processed.
+
+You may complete your request to withdraw consent by choosing the Confirm option after which your app will be reset."</string>
+    <string name="API_ERR_MAX_MEASUREMENTS_USED">"Your license has reached the maximum measurements. Please contact your license administrator."</string>
+    <string name="FORM_VALIDATION_ELEMENT_OVERFLOW">"{ELEMENT} cannot be over {LIMIT}"</string>
+
+    <!-- Fuzzy -->
+    <string name="RESULT_RESPIRATORY">"Respiratory"</string>
+    <string name="RESULT_DEBUG">"Debug"</string>
+    <string name="UNIT_FAHRENHEIT">"ºF"</string>
+
+    <!-- Fuzzy -->
+    <string name="UNIT_SPO2">"SpO2 %"</string>
+    <string name="BTN_INFO">"more information"</string>
+    <string name="RESULT_COMINGSOON">"Coming soon"</string>
+
+    <!-- Fuzzy -->
+    <string name="INFO_SPO2">"Oxygen is carried throughout the blood by hemoglobin proteins. Blood oxygen saturation describes the percentage of oxygen-binding spots on hemoglobin that are currently occupied by oxygen. In healthy individuals 95% or more of available spots are occupied by oxygen. A decrease in this number could mean that your body isn't getting enough oxygen. This could occur at high altitudes due to lack of oxygen or due to diseases that prevent adequate oxygen uptake from your lungs, such as asthma, chronic obstructive pulmonary disorder (COPD), or infections that affect the lungs."</string>
+    <string name="SETTINGS_POPUP_CONSENT_HEADER">"Are you sure?"</string>
+
+    <!-- Fuzzy -->
+    <string name="SETTINGS_POPUP_CONSENT_CONFIRM">"You have successfully removed your consent. The app has been reset."</string>
+
+    <!-- Fuzzy -->
+    <string name="RESULT_BODY_TEMP">"Body Temperature"</string>
+    <string name="INFO_BODY_TEMP">"Your body works to maintain a normal temperature so that it can function properly. Anura measures your body temperature from your face, and a normal temperature is between 35.8°C (96.4°F) and 37.6 °C (99.7°F).
+
+A higher than normal temperature (fever) may occur because of an infection, burn, injury, medication, or your body's inability to get rid of excess heat (heatstroke).
+
+A lower than normal body temperature (hypothermia), could be a sign that you have been in the cold too long or potentially a sign of a significant infection (sepsis), shock, or other medical condition (especially when accompanied by other symptoms like chills, confusion or breathing problems)."</string>
+
+    <!-- Fuzzy -->
+    <string name="PROFILE_HEIGHT_CM">"Height ( cm )"</string>
+
+    <string name="device_info">Device Info</string>
+    <string name="action_dfx_setting">DFX Settings</string>
+    <string name="action_camera_choice">Camera Choices</string>
+    <string name="pref_dfx_total_chunk_number">dfx_total_chunk_number</string>
+    <string name="pref_dfx_duration_per_chunk">dfx_duration_per_chunk</string>
+    <string name="pref_dfx_min_fps">dfx_min_fps</string>
+    <string name="pref_dfx_dark_threshold">dfx_dark_threshold</string>
+    <string name="pref_dfx_bright_threshold">dfx_bright_threshold</string>
+    <string name="pref_dfx_back_light_threshold">dfx_back_light_threshold</string>
+    <string name="pref_dfx_back_light_search_factor">dfx_back_light_search_factor</string>
+    <string name="pref_dfx_back_light_max_pixels_pct">dfx_back_light_max_pixels_pct</string>
+    <string name="pref_dfx_max_face_rotate_lr_deg">dfx_max_face_rotate_lr_deg</string>
+    <string name="pref_dfx_max_face_rotate_ud_deg">dfx_max_face_rotate_ud_deg</string>
+    <string name="pref_dfx_min_inter_pupil_dist_px">dfx_min_inter_pupil_dist_px</string>
+    <string name="pref_dfx_max_face_movement_mm">dfx_max_face_movement_mm</string>
+    <string name="pref_dfx_face_movement_window_ms">_dfx_face_movement_window_ms</string>
+    <string name="pref_dfx_max_eyebrow_movement_mm">dfx_max_eyebrow_movement_mm</string>
+    <string name="pref_dfx_camera_rotate_chunk_threshold">dfx_camera_rotate_chunk_threshold</string>
+    <string name="pref_dfx_camera_rotate_window_threshold">dfx_camera_rotate_window_threshold</string>
+    <string name="pref_dfx_check_min_fps_enabled">dfx_check_min_fps_enabled</string>
+    <string name="pref_dfx_check_face_centered">dfx_check_face_centered</string>
+    <string name="pref_dfx_check_face_distance">dfx_check_face_distance</string>
+    <string name="pref_dfx_check_face_direction">dfx_check_face_direction</string>
+    <string name="pref_dfx_check_lighting">dfx_check_lighting</string>
+    <string name="pref_dfx_check_face_movement">dfx_check_face_movement</string>
+    <string name="pref_dfx_check_back_light">dfx_check_back_light</string>
+    <string name="pref_dfx_check_camera_movement">dfx_check_camera_movement</string>
+    <string name="pref_dfx_check_eyebrow_movement">dfx_check_eyebrow_movement</string>
+    <string name="pref_camera_info">camera_info</string>
+    <string name="pref_camera_check_resolution">pref_camera_check_resolution</string>
+
+    <string name="version_low">Android system version is too low to use Camera2 API</string>
+    <string name="no_front_camera">No front camera detected</string>
+    <string name="unknown_error">unknown error</string>
+
+    <string name="tips" translatable="false">"Tips:
+        1.Click CONFIGURATION,Configure account information(Only need to do it once)
+        2.Click MEASUREMENT, start measurement
+        3.Do not move during the measurement and keep enough light"</string>
+
+    <string name="Analyzing_Data">"Analyzing Data"</string>
+</resources>

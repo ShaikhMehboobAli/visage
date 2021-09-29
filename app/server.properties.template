@@ -1,0 +1,10 @@
+//The real value should NOT be with double quote
+
+APPLICATION_ID=com.doctegrity.health
+SAMPLE_REST_URL=https://api.deepaffex.cn:9443
+SAMPLE_WS_URL=wss://api.deepaffex.cn:9080
+PARTNER_ID=405
+LICENSE_KEY=cb650fa7-4be4-4292-babe-e2e84b54c9c1
+STUDY_ID=7ab8bee7-808c-4123-9811-e385adb8c77d
+ORG_KEY="Test Organization Key"
+VISAGE_KEY=353-622-376-337-019-352-140-947-512-111-407

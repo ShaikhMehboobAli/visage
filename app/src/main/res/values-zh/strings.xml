@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ANURA_ENTERPRISE">"心魔镜 {ENT_NAME} 定制版"</string>
+    <string name="ANURA_TEXT_LOGO_NAME">"logo-wordmark-cn"</string>
+    <string name="API_ERR_ENDPOINT_DISABLED">"API_ERROR_ENDPOINT_DISABLED"</string>
+    <string name="API_ERR_FORBIDDEN">"抱歉，您的帐户暂时无法使用。请稍后再试"</string>
+    <string name="API_ERR_INTERNAL_ERROR">"系统出错，请稍后再试"</string>
+    <string name="API_ERR_INVALID_CREDENTIALS">"API_ERROR_INVALID_CREDENTIALS"</string>
+    <string name="API_ERR_INVALID_LICENSE_KEY">"API_ERROR_INVALID_LICENSE_KEY"</string>
+    <string name="API_ERR_INVALID_PASSWORD">"邮箱或密码错误，请重新尝试"</string>
+    <string name="API_ERR_INVALID_RESET_TOKEN">"API_ERROR_INVALID_RESET_TOKEN"</string>
+    <string name="API_ERR_INVALID_TOKEN">"API_ERROR_INVALID_TOKEN"</string>
+    <string name="API_ERR_INVALID_USER">"登录错误，请重新尝试"</string>
+    <string name="API_ERR_INVALID_VERIFICATION_CODE">"验证码无效"</string>
+    <string name="API_ERR_LICENSE_EXPIRED">"您的许可证已过期。请联系您的许可证管理员"</string>
+    <string name="API_ERR_LOGIN_METHOD">"请用手机号登录"</string>
+    <string name="API_ERR_MAX_KEYS_USED">"您的许可证已达到可注册设备上限。请联系您的许可证管理员"</string>
+    <string name="API_ERR_RESET_TOKEN_EXPIRY">"API_ERROR_RESET_TOKEN_EXPIRY"</string>
+    <string name="API_ERR_TOKEN_REQUIRED">"API_ERROR_TOKEN_REQUIRED"</string>
+    <string name="API_ERR_UNAUTHORIZED">"API_ERROR_UNAUTHORIZED"</string>
+    <string name="API_ERR_USER_ALREADY_EXISTS">"{USERNAME}已被使用"</string>
+    <string name="API_ERROR_LICENSE_EXPIRED">"您的许可证已过期。请联系您的许可证管理员"</string>
+    <string name="API_ERROR_MAX_KEYS_USED">"您的许可证已达到可注册设备上限。请联系您的许可证管理员"</string>
+    <string name="API_ERROR_UNVERIFIED_ACC">"账户尚未验证，请按照验证邮件中的说明激活您的帐户"</string>
+    <string name="APP_CONFIG_LOAD_BODY">"需要重新打开心魔镜™才能使新配置生效"</string>
+    <string name="APP_CONFIG_LOAD_TITLE">"新的应用配置已成功加载"</string>
+    <string name="APP_NAME">"心魔镜"</string>
+    <string name="BELSOL_AFTER">"喝奶后"</string>
+    <string name="BELSOL_BED">"睡前"</string>
+    <string name="BELSOL_BEFORE">"喝奶前"</string>
+    <string name="BELSOL_DURING">"喝奶中"</string>
+    <string name="BELSOL_WAKE_UP">"起床"</string>
+    <string name="BTN_AGREE">"同意"</string>
+    <string name="BTN_BACK">"返回"</string>
+    <string name="BTN_BACK_MEASUREMENT">"返回测量界面"</string>
+    <string name="BTN_CANCEL">"取消"</string>
+    <string name="BTN_CLOSE_APP">"关闭应用"</string>
+    <string name="BTN_CONFIRM_ENT">"确认"</string>
+    <string name="BTN_CONFIRM_PASSWORD">"确认密码"</string>
+    <string name="BTN_CONTINUE">"下一步"</string>
+    <string name="BTN_DONE">"完成"</string>
+    <string name="BTN_LICENSE_OK">"知道了"</string>
+    <string name="BTN_LOGIN">"登录"</string>
+    <string name="BTN_NO">"否"</string>
+    <string name="BTN_OK">"确认"</string>
+    <string name="BTN_PROFILE_FILL_PREV_DATA">"填写上一个被试数据"</string>
+    <string name="BTN_SAVE">"保存"</string>
+    <string name="BTN_SAVE_VIDEO">"完成"</string>
+    <string name="BTN_SHARE">"分享"</string>
+
+    <!-- Fuzzy -->
+    <string name="BTN_START_MEASUREMENT">"开始测量"</string>
+    <string name="BTN_START_OVER">"重新检测"</string>
+    <string name="BTN_SUBMIT">"提交"</string>
+    <string name="BTN_TRY_AGAIN">"请重试"</string>
+    <string name="BTN_UPDATE_NOW">"立即升级"</string>
+    <string name="BTN_UPDATE_PROFILE">"更新个人资料"</string>
+    <string name="BTN_VIEW_GUIDELINES">"正确操作方法"</string>
+    <string name="BTN_YES">"是"</string>
+    <string name="CFBUNDLEDISPLAYNAME">"心魔镜"</string>
+    <string name="CFBUNDLENAME">"Anura"</string>
+    <string name="CONSENT_BTN_HIDE">"收起"</string>
+    <string name="CONSENT_BTN_INFO">"更多信息"</string>
+    <string name="CONSENT_MORE_INFO">"**数据管理者：** 
+
+{ORG_NAME}
+
+{ORG_ADDRESS}
+
+**目的：** 
+
+创建帐户并分析面部血流数据，以计算有关用户健康状况的结果
+
+**数据类型：** 
+
+我们从中提取并处理以测量的面部图像和血流数据：
+
+-   心率
+-   呼吸率
+-   血压
+
+...
+
+您可以随时撤回您的许可。"</string>
+    <string name="CONSENT_PROCESS_DATA">"我同意{ORG_NAME}处理我的健康数据以向我提供使用条款中所述的心魔镜™应用服务"</string>
+    <string name="CONSENT_TOU_PP">"我已阅读并同意心魔镜™的{TOU}和{PP}"</string>
+    <string name="CV_ADJUST">"根据您的症状调整后的分数"</string>
+    <string name="CV_AGE">"您的年龄？"</string>
+    <string name="CV_AGE_POPUP">"如要进行这个自我检测，您的年龄必须在18-120周岁之间。"</string>
+    <string name="CV_BTN_NO_SYMP">"我没有上述症状。"</string>
+    <string name="CV_CALL_EMERG_NUM">"如果您有以下症状，请立刻停止使用本工具并联系您当地的紧急服务部门（如急救中心）："</string>
+    <string name="CV_CHEST_PAIN">"您觉得胸部疼痛吗？"</string>
+    <string name="CV_CHILLS">"您觉得身上发冷吗？"</string>
+    <string name="CV_COUGHING">"您咳嗽吗？"</string>
+    <string name="CV_DIARRHEA">"您腹泻吗？"</string>
+    <string name="CV_DISCLAIMER_HEADER">"你此刻是否有紧急医疗症状或处于紧急状态？"</string>
+    <string name="CV_DYSPNEA">"您感到呼吸困难吗？"</string>
+    <string name="CV_EMERG_SYMPTOMS">"- 严重呼吸困难 
+- 严重胸痛 
+- 很难醒来 
+- 神志恍惚 
+- 失去意识"</string>
+    <string name="CV_FATIGUE">"您是否感到疲惫？"</string>
+    <string name="CV_FEVER">"您发烧吗？"</string>
+    <string name="CV_GENDER">"您的性别？"</string>
+    <string name="CV_HEADACHE">"您头痛吗？"</string>
+    <string name="CV_HOSPITAL_CONTACT">"您是否与过去14天内生病和/或曾在加拿大以外旅行的人有接触？"</string>
+    <string name="CV_HOSPITAL_FEVER">"您有发烧，新的咳嗽恶化或呼吸急促吗？"</string>
+    <string name="CV_HOSPITAL_TRAVEL">"您过去14天内曾在加拿大以外旅行吗？"</string>
+    <string name="CV_INFO">"这里显示的新冠病毒（COVID-19）感染评分是指：基于问卷中回答的特定症状组合的情况下，新冠病毒（COVID-19）感染检测阳性的可能性（以百分比表示）。其余有这种症状的病人中有季节性流感（流感）或普通感冒的百分比。
+
+新冠病毒（COVID-19）感染评分是通过机器学习模型计算的，该模型基于对那些有新冠病毒（COVID-19）感染症状就诊并被诊断为新冠病毒（COVID-19）感染、季节性流感（流感）或普通感冒的患者的症状描述的研究。
+
+请注意，您的症状也可能反映了既有病症的情况，如季节性过敏、哮喘、慢性阻塞性肺病、日常现象和支气管炎。如果你不确定自己的症状，请咨询医生或当地的新冠病毒（COVID-19）测试中心进行正式诊断。
+
+[点击此处](https://nuralogix.ai/covid-19)了解更多关于新冠病毒自测工具的信息。 "</string>
+    <string name="CV_INFO_LIKELIHOOD">"在与您有相同症状的人中，有{COVID_LIKELIHOOD}%的人新冠病毒感染检测呈阳性。
+
+但同时这也意味着有同样这些症状的人中有{NO_COVID_LIKELIHOOD}%患有季节性流感或普通感冒。"</string>
+
+    <!-- Fuzzy -->
+    <string name="CV_INTRO">"本新冠病毒自测工具使用症状问卷来估计您对新冠病毒呈阳性反应的可能性。 该研究基于对曾就医的医生出现新冠病毒症状并被诊断出患有新冠病毒，季节性流感或普通感冒的患者的研究。"</string>
+
+    <!-- Fuzzy -->
+    <string name="CV_INTRO_PP_TOU">"使用此工具，即表示您同意使用条款和隐私政策，并同意纽洛斯对您使用自测工具时可能造成的损害不承担任何责任。"</string>
+
+    <!-- Fuzzy -->
+    <string name="CV_INTRO_DISCLAIMER">"此工具不能替代医疗保健专业人员的临床判断。 它旨在提供信息，并提高您对整体健康的认识。 它不诊断，治疗，减轻或预防任何疾病，症状，病症或异常的生理状态。 如果您认为自己可能有健康问题，请咨询医疗保健专业人员或紧急服务。"</string>
+    <string name="CV_LIKELIHOOD">"感染新冠病毒的可能性"</string>
+    <string name="CV_MALAISE">"您是否感到全身不适？"</string>
+    <string name="CV_MYALGIA">"您感到肌肉疼痛吗？"</string>
+    <string name="CV_NAUSEA">"您有恶心的感觉吗？"</string>
+    <string name="CV_NEW_BODY_1">"评估您感染新冠病毒的可能性"</string>
+    <string name="CV_NEW_BODY_2">"点击"</string>
+    <string name="CV_NEW_BODY_3">"图标开始检测"</string>
+    <string name="CV_NEW_HEADER">"新功能：
+新冠病毒自测"</string>
+    <string name="CV_ONETWO_YES">"虽然您报告的一些症状存在于部分新冠病毒感染的患者当中，但是您报告的症状数量仍不足以提供准确的评估。如果你的症状发生改变、或者您产生了新的症状，您可以再试一次。如果您担心您目前的健康状况或新冠病毒感染的可能性，您应当遵照当地卫生部门的指导，并联系相应的医疗卫生专业人员。"</string>
+    <string name="CV_PRE_CONDITIONS">"该工具可能无法准确估计以下已有条件的用户的COVID-19可能性：
+ - 哮喘
+ - 慢性阻塞性肺病
+ - 心脏衰竭
+ - 肺炎（无新冠病毒起源）
+ - 支气管炎
+ - 结核病
+ - 百日咳
+ - 季节性过敏
+"</string>
+    <string name="CV_QUESTION_FOOTER">"此工具提供的信息不构成任何医疗建议，不能被用于诊断或治疗任何疾病或健康状况。"</string>
+    <string name="CV_QUESTION_HEADER">"请尽可能准确地完成下面全部问题"</string>
+    <string name="CV_RUNNY_NOSE">"您流鼻涕吗?"</string>
+    <string name="CV_SHORT_BREATH">"您的呼吸比正常时加快了吗？"</string>
+    <string name="CV_SINUS_CONJESTION">"您有鼻塞（鼻子发堵）吗？"</string>
+    <string name="CV_SORE_THROAT">"您咽喉疼痛吗？"</string>
+    <string name="CV_SPUTUM">"您有痰吗?"</string>
+    <string name="CV_SUM_SHARE">"新冠自测总结"</string>
+    <string name="CV_SUMMARY">"问卷回答汇总"</string>
+    <string name="CV_TEMP_POPUP">"抱歉，您输入的体温超出了此工具可接受的范围。 请输入其他温度。"</string>
+    <string name="CV_TEMPERATURE">"您目前的体温是多少？"</string>
+    <string name="CV_TITLE">"新冠病毒"</string>
+    <string name="CV_TOOL">"新冠病毒自测工具"</string>
+    <string name="CV_TY_BODY">"接下来，请进行30秒的心魔镜测量，以获取完整的结果。"</string>
+    <string name="CV_TY_HEADER">"感谢您填写问卷！"</string>
+    <string name="CV_VOMITING">"您呕吐吗?"</string>
+    <string name="CV_WHITE_SPUTUM">"您的痰是白色的吗？"</string>
+    <string name="CV_YELLOW_SPUTUM">"您的痰是黄色的吗？"</string>
+    <string name="CV_ZERO_YES">"目前您尚未表现出足够的症状来进行准确的评估。如果你的症状发生改变、或者您产生了新的症状，您可以再试一次。如果您担心您目前的健康状况或新冠病毒感染的可能性，您应当遵照当地卫生部门的指导，并联系相应的医疗卫生专业人员。"</string>
+    <string name="DEMOGRAPHICS_TITLE">"个人信息"</string>
+
+    <!-- Fuzzy -->
+    <string name="Q_DIABETES">"您有糖尿病吗？"</string>
+    <string name="DISCLAIMER_AGREEMENT">"点击同意即表示您已阅读并同意
+{TOU}和{PP}"</string>
+    <string name="DISCLAIMER_CAMERA">"敬请知悉，本应用将使用您的摄像头提取面部血流数据用于分析。
+
+谨记Anura™（心魔镜™）并不能代替医疗专业人员的临床判断。Anura™（心魔镜™）旨在提高你对自身整体健康的认知，并不能作为任何诊断、治疗、缓解或预防任何疾病、症状、紊乱或异常的身体状态之用。如果您认为您可能有健康或医疗方面的问题，请咨询医疗专业人员或紧急服务部门。
+
+在手机运营商网络中使用本应用将产生额外的数据流量和相关费用。
+"</string>
+    <string name="DISCLAIMER_DONT_AGREE">"不同意并退出APP"</string>
+    <string name="DISCLAIMER_SIGNUP">"点击注册即表示您同意{TOU}和{PP}"</string>
+    <string name="DISCLAIMER_TITLE">"免责声明"</string>
+    <string name="DISCLAIMER_UNDERAGE">"心魔镜不适用于13岁以下的儿童"</string>
+    <string name="DOB_YYYY_MM">"生日 (年，月)"</string>
+    <string name="ERR_CAMERA_CALIBRATION_TIMEOUT">"摄像头无法校准
+重新校准中..."</string>
+    <string name="ERR_CONFLICT_EMAIL">"该邮箱已注册，请尝试登录"</string>
+    <string name="ERR_CONFLICT_PHONE">"该手机号已注册，请尝试登录"</string>
+    <string name="ERR_CONSTRAINT_BRIGHTNESS">"面部太亮
+请降低亮度"</string>
+    <string name="ERR_CONSTRAINT_DARKNESS">"面部光线不足
+请提高亮度，确保光线均匀"</string>
+    <string name="ERR_CONSTRAINT_DISTANCE">"请靠近摄像头并重新测量"</string>
+    <string name="ERR_CONSTRAINT_FPS">"摄像头帧率不足
+请尝试关闭后台所有运行程序"</string>
+    <string name="ERR_CONSTRAINT_GAZE">"请在整个测量期间保持正对摄像头"</string>
+    <string name="ERR_CONSTRAINT_MOVEMENT">"请在整个测量期间保持静止"</string>
+    <string name="ERR_CONSTRAINT_NO_NETWORK">"请确保您已连接到WiFi或移动网络"</string>
+    <string name="ERR_CONSTRAINT_POSITION">"在测量过程中
+请把面部保持在白色脸型轮廓内"</string>
+    <string name="ERR_CONSTRAINT_TOO_FAR">"请把面部与手机的距离拉近一点
+并保持在白色脸型轮廓内"</string>
+    <string name="ERR_EMAIL_LOGIN_FAILED">"邮箱或密码错误
+请重新尝试"</string>
+    <string name="ERR_EMAIL_NOT_FOUND">"该邮箱地址不存在"</string>
+    <string name="ERR_MSG_ANALYZER_FAILED">"抱歉，分析结果时发生错误
+请重新测量"</string>
+    <string name="ERR_MSG_MEASUREMENT_FAILED">"抱歉，无法显示结果
+请检查您的网络连接并重新尝试"</string>
+    <string name="ERR_MSG_MEASUREMENT_TIMEOUT">"您的测量数据无法发送
+请检查您的网络连接并重新尝试"</string>
+    <string name="ERR_MSG_NO_NETWORK">"无法连接网络"</string>
+    <string name="ERR_MSG_SNR">"此次测量结果不可靠
+请调整照明使光线均匀分布在面部"</string>
+    <string name="ERR_MSG_SNR_SHORT">"此次测量效果不佳
+请调整照明使光线均匀分布在面部"</string>
+    <string name="ERR_NOTE_LOAD">"加载记录失败"</string>
+    <string name="ERR_NOTE_SAVE">"保存记录错误"</string>
+    <string name="ERR_PASSWORD_RESET">"您的密码无法重置"</string>
+    <string name="ERR_PASSWORD_SHORT">"您的密码必须至少{NUM}个字符"</string>
+    <string name="ERR_PHONE_NOT_FOUND">"该手机号不存在"</string>
+    <string name="ERR_SERVER_CONNECTION">"抱歉，无法连接到服务器"</string>
+    <string name="ERR_TIMEOUT">"请确保您已连接到WiFi或移动网络"</string>
+    <string name="ERR_TITLE_ANALYZER_FAILED">"分析失败"</string>
+    <string name="ERR_TITLE_MEASUREMENT_FAILED">"抱歉，测量不成功"</string>
+    <string name="ERR_TITLE_MEASUREMENT_TIMEOUT">"您的请求已超时"</string>
+    <string name="ERR_TURN_OFF_LOW_POWER_MODE">"请取消低电量模式再进行测量"</string>
+    <string name="FORM_VALIDATION_ELEMENT_INVALID">"{ELEMENT}无效"</string>
+    <string name="FORM_VALIDATION_ELEMENT_REQUIRED">"{ELEMENT}必填"</string>
+    <string name="FORM_VALIDATION_ELEMENT_UNDERFLOW">"{ELEMENT}不可低于{LIMIT}"</string>
+    <string name="GUEST_INFO_SAVE_DESC">"这将不会被保存"</string>
+    <string name="HINT_DOT">"..."</string>
+    <string name="HISTORY_ADD_NOTE">"添加记录"</string>
+    <string name="HISTORY_AVG_W_M">"测量结果显示的是当日的平均值"</string>
+    <string name="HISTORY_AVG_Y">"测量结果显示的是当月的平均值"</string>
+    <string name="HISTORY_D">"日"</string>
+    <string name="HISTORY_EMPTY">"尚无测量记录，请点击“圆圈”开始第一次测量"</string>
+    <string name="HISTORY_LIST">"列表"</string>
+    <string name="HISTORY_M">"月"</string>
+    <string name="HISTORY_NO_MEASUREMENT">"您尚未进行过任何测量"</string>
+    <string name="HISTORY_NO_RESULTS">"暂无可显示的结果"</string>
+    <string name="HISTORY_NOTE">"注"</string>
+    <string name="HISTORY_NOTE_PROMPT">"您可以填加您的个人记录，例如时间、地点以及您正在做的事情，配合测量结果，更清晰地了解您的个人心理状况，本记录可以随时查阅，供您个人参考"</string>
+    <string name="HISTORY_TITLE">"健康记录"</string>
+    <string name="HISTORY_TREND">"趋势"</string>
+    <string name="HISTORY_VIEW_NOTE">"查看记录"</string>
+    <string name="HISTORY_W">"周"</string>
+    <string name="HISTORY_Y">"年"</string>
+    <string name="INFO_BMI">"体重指数（BMI）是评价人的组织质量（肌肉、脂肪和骨骼）与身高的的适应关系。它常用于反映全身的脂肪指标、并根据由此带来的健康风险将人分为体重过轻、正常、超重或肥胖。
+
+体重指数是心血管疾病、II型糖尿病、胆结石和某些癌症的重要预测因子，同时它也是高密度脂蛋白（HDL）和甘油三酯水平的最佳预测因子之一；这些都是引发心脏代谢疾病的重要因素。它也是尿酸水平最好的人体测量预测因子之一（高尿酸水平会导致胆结石）。体重指数的一个局限性是，它不能区分脂肪和肌肉质量，因此在肌肉发达的人群中可能导致不准确。
+
+体重指数的计算公式：
+
+BMI=体重（kg）/身高²（m²）
+
+中华人民共和国卫生部疾病控制司对体重指数的标准划分：
+
+| BMI | 体重分类 |
+|---|---|
+| 低于18.5 | 体重不足 |
+| 18.5-23.9 | 体重正常 |
+| 24.0-27.9 | 超重 |
+| 28及以上 | 肥胖 |
+
+欲了解更多信息，请参阅：Zhou，W.，Wang，Y.，Gu，X.，Feng，Z.P.，Lee，K.，Peng，Y.和Barszczyk，A.（2020）“一般肥胖、内脏肥胖和生命体征在使用机器学习预测血液生物标记物中的重要性”《国际临床实践杂志》e13664。"</string>
+    <string name="INFO_BMI_CN">"体重指数（BMI）是评价人的组织质量（肌肉、脂肪和骨骼）与身高的的适应关系。它常用于反映全身的脂肪指标、并根据由此带来的健康风险将人分为体重过轻、正常、超重或肥胖。
+
+体重指数是心血管疾病、II型糖尿病、胆结石和某些癌症的重要预测因子，同时它也是高密度脂蛋白（HDL）和甘油三酯水平的最佳预测因子之一；这些都是引发心脏代谢疾病的重要因素。它也是尿酸水平最好的人体测量预测因子之一（高尿酸水平会导致胆结石）。体重指数的一个局限性是，它不能区分脂肪和肌肉质量，因此在肌肉发达的人群中可能导致不准确。
+
+体重指数的计算公式：
+
+BMI=体重（kg）/身高²（m²）
+
+中华人民共和国卫生部疾病控制司对体重指数的标准划分：
+
+| BMI | 体重分类 |
+|---|---|
+| 低于18.5 | 体重不足 |
+| 18.5-23.9 | 体重正常 |
+| 24.0-27.9 | 超重 |
+| 28及以上| 肥胖 |
+
+欲了解更多信息，请参阅：Zhou，W.，Wang，Y.，Gu，X.，Feng，Z.P.，Lee，K.，Peng，Y.和Barszczyk，A.（2020）“一般肥胖、内脏肥胖和生命体征在使用机器学习预测血液生物标记物中的重要性”《国际临床实践杂志》e13664。"</string>
+    <string name="INFO_BP_DIA">"舒张压是指当心肌放松时肱动脉的压力值，单位为毫米汞柱（mmHg）。
+
+#### 美国舒张压标准：
+
+[美国心脏协会和美国心脏病学会](https://www.ahajournals.org/doi/10.1161/HYP.0000000000000065)对高血压定义如下：
+
+|  | 舒张压 (mmHg) |
+|--|--|
+| 正常 | &lt; 80 |
+| 高血压 | ≥ 80 |
+
+#### 其他地区收缩压标准:
+
+[欧洲心脏病学会和欧洲高血压学会](https://academic.oup.com/eurheartj/article/39/33/3021/5079119)对高血压定义如下：
+
+|  | 舒张压 (mmHg) |
+|--|--|
+| 最佳 | &lt; 80 |
+| 正常 | 80 - 84 |
+| 高于正常 | 85 - 89 |
+| 高血压 | ≥ 90 |
+
+#### 免责声明：
+
+心魔镜不是医疗器械，不应用于医疗目的。如果您有任何与健康相关的问题、问题或紧急情况，请始终咨询您的医生或其他医疗专业人员。
+
+#### 血压测量的准确度：
+
+在一篇发表在 [美国心脏协会期刊《循环：心血管成像》（第12卷，第8期）](https://www.ahajournals.org/doi/10.1161/CIRCIMAGING.119.008857) 的研究报告中显示，心魔镜使用其独有的技术----血谱光学成像（TOI）已被证明在以下范围内测量血压的平均总准确度为95%：
+
+-   收缩压: 100-139 mmHg
+-   舒张压: 60-89 mmHg"</string>
+    <string name="INFO_BP_SYS">"收缩压是心肌收缩时肱动脉的峰值压力，单位为毫米汞柱（mmHg）。
+
+#### 美国收缩压标准：
+
+[美国心脏协会和美国心脏病学会](https://www.ahajournals.org/doi/10.1161/HYP.0000000000000065)对高血压定义如下：
+
+|  | 收缩压 (mmHg) |
+|--|--|
+| 正常 | &lt; 120 |
+| 升高 | 120 - 129 |
+| 高血压 |≥ 130 |
+
+#### 其他地区收缩压标准:
+
+[欧洲心脏病学会和欧洲高血压学会](https://academic.oup.com/eurheartj/article/39/33/3021/5079119)对高血压定义如下：
+
+|  | 收缩压(mmHg) |
+|--|--|
+| 最佳 | &lt; 120 |
+| 正常 | 120 - 129 |
+| 高于正常 | 130 - 139 |
+| 高血压 | ≥ 140 |
+
+#### 免责声明：
+
+心魔镜不是医疗器械，不应用于医疗目的。如果您有任何与健康相关的问题、问题或紧急情况，请始终咨询您的医生或其他医疗专业人员。
+
+#### 血压测量的准确度：
+
+在一篇发表在[在一篇发表在美国心脏协会期刊《循环：心血管成像》（第12卷，第8期）](https://www.ahajournals.org/doi/10.1161/CIRCIMAGING.119.008857)的研究报告中显示，心魔镜使用其独有的技术----血谱光学成像（TOI）已被证明在以下范围内测量血压的平均总准确度为95%：
+
+-   收缩压: 100-139 mmHg
+-   舒张压: 60-89 mmHg"</string>
+    <string name="INFO_BREATHING">"成年人的正常静息呼吸频率为每分钟12到25次。呼吸速率减慢可能是由某些药物引起的，也可能是潜在的健康问题，例如甲状腺功能减退、心脏病、电解质失衡等。呼吸速率加快可能有许多原因，包括快走或运动、哮喘、焦虑、感染或心血管疾病。如果你的呼吸频率超出正常范围，您可能需要咨询您的医生。"</string>
+    <string name="INFO_BSI">"体型指数是衡量腹部（由腰围决定）相对于整体体型（由体重指数BMI和身高决定）的指标。低体型指数对应的是“辣椒”形身材。随着BSI的增加，身体形状像梨，进而是像菠萝，然后是苹果。较大的腹部表明腹部深层脂肪水平升高，这与各种健康风险有关。
+
+体型指数是用于预测死亡率的所有因素中非常重要的一个，并且能比较准确的预测糖尿病和心血管疾病，它与影响心血管疾病的甘油三酯水平升高有关。
+
+欲了解更多信息，请参阅：Zhou，W.，Wang，Y.，Gu，X.，Feng，Z.P.，Lee，K.，Peng，Y.和Barszczyk，A.（2020）“一般肥胖、内脏肥胖和生命体征在使用机器学习预测血液生物标记物中的重要性”《国际临床实践杂志》e13664。"</string>
+    <string name="INFO_CARDIACWORKLOAD">"心脏负荷，或者更准确地说是心肌负荷，是对心肌压力的测量。
+
+心脏负荷可用以下公式计算：
+心率x收缩压。在静息状态下测量时，该指数可作为心血管健康的指标。
+
+例如，通常情况下，一个经常锻炼的人可能比另一个久坐不动的人应该有更低的心脏负荷。你的心脏负荷应该在剧烈运动时增加，但在运动结束后降低。"</string>
+    <string name="INFO_CVD_RISK">"心血管疾病风险是指您在未来10年内发生第一次心脏病发作或中风的可能性，以百分比表示。
+
+此风险评估包含对您的性别、年龄、体重指数、收缩压和使用抗高血压药物状况的考量，以及您的吸烟状况和糖尿病状况（如有）。它是用弗雷明翰方法（Framingham）、基于对参与者心血管健康进行了10年以上的前瞻性研究的数据开发的。"</string>
+    <string name="INFO_DISCLAIMER">"屏幕显示的内容仅供参考，不能替代医疗专业人员的判断。它旨在提高人们对整体健康的认知。"</string>
+    <string name="INFO_GWS">"综合健康评分是根据最基本的生命体征综合计算得出的生理健康指标，其中包括：
+
+- 心率
+- 压力
+- 血压
+- 不规则心跳
+- 体重指数
+- 腰围身高比
+- 体型指数
+- 心脏负荷
+- 心血管疾病风险
+
+
+通常情况下，你的综合健康评分越高，你的健康状况就越好。"</string>
+    <string name="INFO_HEART_ATTACK_RISK">"心脏病风险是指您在未来10年内发生首次心脏病发作的可能性，以百分比表示。
+
+此风险评估包含对您的性别、年龄、体重指数、收缩压和使用抗高血压药物状况的考量，以及您的吸烟状况和糖尿病状况（如有）。它是用弗雷明翰方法（Framingham）、基于对参与者心血管健康进行了10年以上的前瞻性研究的数据开发的。"</string>
+    <string name="INFO_HR_1">"不正常的心率偏高或偏低可能预示潜在的问题。如果你不是经过训练的专业运动员并且你的心率低于每分钟60次 (bpm)，特别是当有其它症状 (例如头昏、晕眩、呼吸急促等) 同时发生时，请咨询专业医生。
+
+静息心率会被很多因素影响，其中包括但不限于如下因素：
+
+- 健康水平
+- 年龄
+- 心血管疾病
+- 吸烟
+- 服用药物
+- 身体姿势 (比如站立、坐下或躺着)
+
+如果你对你的静息心率有疑问或想了解等多信息，请咨询专业医生。
+
+关于静息心率的更多资料，可参考梅奥诊所的文章\"[什么是正常的静息心率](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.)\"、美国心脏学会的文章\"[了解你锻炼、减重和健康的心率目标](https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates)\" 以及\"[关于心率 (脉搏) 的一切](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse)\"。"</string>
+    <string name="INFO_HR_2">"成年人的静息心率 (RHR) 通常在每分钟60到100次 (bpm) 之间被视作是正常的。 静息心率会被很多因素影响，其中包括但不限于如下因素： 
+
+- 健康水平
+- 年龄
+- 心血管疾病
+- 吸烟
+- 服用药物
+- 身体姿势 (比如站立、坐下或躺着) 
+
+通常情况下，较低的静息心率反映更加健康的心脏功能，同时也反映较低的心血管疾病风险。专业运动员的正常静息心率可能会低于60bpm，甚至接近40bpm。 
+
+如果你对你的静息心率有疑问或想了解等多信息，请咨询专业医生。
+
+关于静息心率的更多资料，可参考梅奥诊所的文章\"[什么是正常的静息心率](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.)\"、美国心脏学会的文章\"[了解你锻炼、减重和健康的心率目标](https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates)\" 以及\"[关于心率（脉搏）的一切](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse)\"。"</string>
+    <string name="INFO_HR_3">"
+不正常的心率偏高或偏低可能预示潜在的问题。如果你的心率持续高于每分钟100次 (bpm)，特别是当有其它症状 (例如头昏、晕眩、呼吸急促等) 同时发生时，请咨询专业医生。 静息心率会被很多因素影响，其中包括但不限于如下因素：
+
+- 健康水平
+- 年龄
+- 心血管疾病
+- 吸烟
+- 服用药物
+- 身体姿势 (比如站立、坐下或躺着) 
+
+如果你对你的静息心率有疑问或想了解等多信息，请咨询专业医生。 
+
+关于静息心率的更多资料，可参考梅奥诊所的文章\"[什么是正常的静息心率](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.)\"、美国心脏学会的文章\"[了解你锻炼、减重和健康的心率目标](https://www.heart.org/en/healthy-living/fitness/fitness-basics/target-heart-rates)\" 以及\"[关于心率（脉搏）的一切](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse)\"。"</string>
+    <string name="INFO_HR_TITLE_1">"低于正常范围－静息心率"</string>
+    <string name="INFO_HR_TITLE_2">"正常范围—静息心率"</string>
+    <string name="INFO_HR_TITLE_3">"高于正常范围－静息心率"</string>
+    <string name="INFO_HRV">"心率变异性(HRV)是指逐次心跳周期差异的变化情况。心魔镜用SDNN来测量，SDNN是全部窦性心搏间期（简称NN间期）的标准差，单位为毫秒(ms) 。较高的SDNN对应较多的拍间变异性。
+
+心率变异性增加表明副交感神经活动增加和/或自主神经系统交感神经活动减少。
+
+较高的静息心率变异性被认为是健康的，意味着心脏对身体不断变化的需求更加灵活。"</string>
+    <string name="INFO_IHB">"显示结果是心魔镜在30秒内检测出的不规则心跳次数。
+
+不规则心跳是指发生在心脏正常节律之外的心跳。在这种情况下，有些心跳可能比预期的要早，或者错过了一个心跳。有的时候有胸口震动、心跳加速或心悸的感觉。
+
+不规则心跳通常是无害的。大多数情况下，它们是由体内肾上腺素的增加而触发的，如焦虑、咖啡因和尼古丁。
+
+但是，在极少数情况下，不规则的心跳可能表明严重的问题，如电解质失衡或心脏疾病。如果您有持续不规则的心跳，或者不规则心跳发生时有其它症状，如头晕、胸痛或呼吸短促，您应该咨询医生或立即就医。"</string>
+    <string name="INFO_SKINAGE">"面部皮肤年龄是根据面部表面状况来评估你的年龄。
+
+这个评估值可以作为面部皮肤老化的指标。
+
+这种评估可能会受到许多因素的影响，如你的疲劳程度、护肤品和化妆品的使用等。
+
+在不好的照明条件下拍摄的视频图像 (例如背光、头顶照明) 可能会严重影响皮肤年龄的评估。"</string>
+    <string name="INFO_STARS">"### 五星评级代表什么？
+
+这个评级代表您的测量质量。
+
+心魔镜的五星评级系统是通过评价光线照在面部的情况，从而显示您的测量质量。
+
+#### ★ ★ ★ ★ ★ 4 – 5 颗星
+
+良好的光照条件。光线在面部上均匀地分布 (没有阴影)。
+
+#### ★ ★ ★ ☆ ☆ 2 – 3 颗星
+
+合格的光照条件。 面部光线合格 (即不太暗)，并且比较均匀地分布在您的脸上。 
+
+#### ★ ☆ ☆ ☆ ☆ 1 颗星
+
+不合格的光照条件。 面部太暗，光线不均匀或测量过程中出现晃动。"</string>
+
+    <!-- Fuzzy -->
+    <string name="INFO_STRESS_1">"- 心理压力值 (ASI)值 ”极低“ 表示你几乎没有心理压力，身心健康极佳
+- 你可能处于生活无忧或深度放松的状态 
+- 但是，过于放松的心态可能使你有时无法集中足够的注意力从事日常活动，因为必要的压力是有正面作用的
+
+正如静息心率 (RHR) 会持续变化一样，你的心理压力值 (ASI) 在连续的测量中显示不同的结果也是正常现象，这是因为心率变异性 (HRV) 也是持续变化的。所以，当你连续测量时，心理压力值 (ASI) 结果出现多至1.0的波动也并非异常现象。"</string>
+    <string name="INFO_STRESS_2">"- 心理压力值 (ASI) 值 \"较低\" 表示你有适当的心理压力，身心健康处于良好状态
+- 这个状态是大多数人休息的时候应有的状态，同时也适宜处理一些简单的日常事务
+- 有意识地增加心理压力有助于集中注意力去应对困难和挑战
+
+正如静息心率 (RHR) 会持续变化一样，你的心理压力值 (ASI) 在连续的测量中显示不同的结果也是正常现象，这是因为心率变异性 (HRV) 也是持续变化的。所以，当你连续测量时，心理压力值 (ASI) 结果出现多至1.0的波动也并非异常现象。"</string>
+    <string name="INFO_STRESS_3">"- 心理压力值 (ASI) 值 \"适中\" 表示你有一定的心理压力，身心健康处于稳定状态
+- 大多数人在此ASI区间会表现出最佳的工作状态
+- 如果你在工作中保持此ASI状态并在休息时适当放松，将会受益匪浅
+
+正如静息心率 (RHR) 会持续变化一样，你的心理压力值 (ASI) 在连续的测量中显示不同的结果也是正常现象，这是因为心率变异性 (HRV) 也是持续变化的。所以，当你连续测量时，心理压力值 (ASI) 结果出现多至1.0的波动也并非异常现象。"</string>
+    <string name="INFO_STRESS_4">"- 心理压力值 (ASI) 值 \"较高\" 表示你有相当大的心理压力，并高度警觉
+- 保持此ASI状态，你处理短期棘手的任务会非常高效
+- 但是，不要让你的心理压力长期处于该状态，否则可能会对你的身心健康产生负面影响
+
+正如静息心率 (RHR) 会持续变化一样，你的心理压力值 (ASI) 在连续的测量中显示不同的结果也是正常现象，这是因为心率变异性 (HRV) 也是持续变化的。所以，当你连续测量时，心理压力值 (ASI) 结果出现多至1.0的波动也并非异常现象。"</string>
+    <string name="INFO_STRESS_5">"- 心理压力值 (ASI) 值 \"极高\" 表示你有巨大的心理压力，身心健康令人担忧
+- 你可能处于极度焦虑的状态，无法让自己平静
+- 建议你劳逸结合，保证充分的睡眠、多运动、多练习深呼吸、避免喝含咖啡因的饮料，尽量使自己放松。平静的生活有助于恢复心理压力的长期平衡，否则可能会导致多种健康问题
+
+正如静息心率 (RHR) 会持续变化一样，你的心理压力值 (ASI) 在连续的测量中显示不同的结果也是正常现象，这是因为心率变异性 (HRV) 也是持续变化的。所以，当你连续测量时，心理压力值 (ASI) 结果出现多至1.0的波动也并非异常现象。"</string>
+    <string name="INFO_STRESS_STATE">"状态"</string>
+
+    <!-- Fuzzy -->
+    <string name="INFO_STRESS_TITLE_4">"警惕"</string>
+    <string name="INFO_STRESS_TITLE_1">"非常放松"</string>
+    <string name="INFO_STRESS_TITLE_2">"放松"</string>
+    <string name="INFO_STRESS_TITLE_3">"高效"</string>
+    <string name="INFO_STRESS_TITLE_5">"超载"</string>
+    <string name="INFO_STROKE_RISK">"中风风险是您在未来10年内首次中风的可能性，以百分比表示。
+
+此风险评分考虑您的性别、年龄、体重指数、收缩压和抗高血压药物状态，以及您的吸烟状态和糖尿病状态（仅限男性）。它是用弗雷明翰方法（Framingham）、基于对参与者心血管健康进行了10年以上的前瞻性研究的数据开发的。"</string>
+    <string name="INFO_TAB_FIVE">"5"</string>
+    <string name="INFO_TAB_FOUR">"4"</string>
+    <string name="INFO_TAB_ONE">"1"</string>
+    <string name="INFO_TAB_THREE">"3"</string>
+    <string name="INFO_TAB_TWO">"2"</string>
+    <string name="INFO_VASCULARAGE">"面部血管年龄是根据面部皮肤下面的血流特征来评估你的年龄。
+
+这个评估值可以作为面部血管老化的指标。"</string>
+    <string name="INFO_VASCULARCAPACITY">"血管容量，或Tau，是衡量血管弹性的一个指标。
+
+血管容量可用以下公式计算：
+R (血管阻力) x C (动脉顺应性)。
+
+在静息状态下测量时，该指数可作为心血管健康的一个指标，因为它与血管硬度密切相关。
+
+通常情况下，Tau值高的人比Tau值低的人有更好的血管健康状况。此外，某些活动可导致Tau值立即发生变化 (例如饮酒、吸烟)。"</string>
+    <string name="INFO_WATHR">"腰围身高比WHR是一个人的腰围长度占身高长度的百分比来表示的数值（两者使用相同的长度单位）。这种脂肪与各种健康风险有关。
+
+腰围身高比是心血管疾病风险的一个很好的预测因子，它与心血管疾病的风险因素如总胆固醇升高和高密度脂蛋白（HDL）降低有关。
+
+平均来说，心魔镜估计您的腰高比与实际值的误差不超过4%
+
+欲了解更多信息，请参阅：Zhou，W.，Wang，Y.，Gu，X.，Feng，Z.P.，Lee，K.，Peng，Y.和Barszczyk，A.（2020）“一般肥胖、内脏肥胖和生命体征在使用机器学习预测血液生物标记物中的重要性”《国际临床实践杂志》e13664。"</string>
+    <string name="INSTRUCTION_BAD_DIRECTION">"以下情况可能导致心魔镜无法正常操作：
+面部没有朝向手机，距离太远或太近"</string>
+    <string name="INSTRUCTION_BAD_FACE">"以下情况可能导致心魔镜无法正常操作：
+面部有遮挡，比如眼镜或帽子"</string>
+    <string name="INSTRUCTION_BAD_LIGHT">"以下情况可能导致心魔镜无法正常操作：
+面部太亮或太暗，光线不均匀，尽量避免背景光"</string>
+    <string name="INSTRUCTION_BEST_RESULTS">"为了取得最佳侧量结果，建议您将手机放在手机支架上，以避免手持产生的震动，并可以使用自拍灯以确保脸部光线分布均匀"</string>
+    <string name="INSTRUCTION_LIGHT_EVEN">"确保光线均匀地分布在面部
+整个测量期间保持面部在白色脸型轮廓内"</string>
+    <string name="INSTRUCTION_SIT_STILL">"整个测量期间保持静止30秒"</string>
+    <string name="INSTRUCTION_TAP_DIAL">"在结果页面点击表盘区域即可得到更多相关信息"</string>
+    <string name="INSTRUCTION_TITLE">"使用说明"</string>
+    <string name="INSTRUCTION_WELL_LIT">"选择光线充足的地方并放松地坐下
+为了尽可能地避免晃动对检测结果的影响
+请用双手稳定地在桌上或其它稳固的位置支撑您的手机"</string>
+    <string name="LANDING_BUBBLE">"您好，我是心魔镜
+开始您的30秒
+健康检测吧"</string>
+    <string name="LANDING_GET_STARTED">"开始测量"</string>
+    <string name="LANDING_GRANT_CAMERA">"授予摄像头访问权限"</string>
+    <string name="LANDING_LOGIN">"已注册账户"</string>
+    <string name="LANDING_WELCOME">"您好，我是心魔镜
+开始您的30秒
+健康检测吧"</string>
+    <string name="LOADING_ANALYZING_DATA">"正在分析数据"</string>
+    <string name="LOADING_ASK_DOCTOR">"向您的医生询问有关通过饮食和运动来改善健康状况的信息。"</string>
+    <string name="LOADING_BP_CHANGE">"进餐，运动或吸烟可能会影响血压。"</string>
+    <string name="LOADING_CVD_AGE">"心血管疾病的风险随年龄增长而增加。"</string>
+    <string name="LOADING_LOW_STRESS">"保持较低的压力指数有益于您的身心健康。"</string>
+    <string name="LOADING_REST_ONE_MIN">"测量前平静的休息一分钟，有助于获得更加准确的测量结果"</string>
+    <string name="LOADING_SENDING_DATA">"正在发送数据"</string>
+    <string name="LOADING_STAR_RATING">"五星级的照明条件可提供最可靠的测量结果。"</string>
+    <string name="LOGIN_ERROR_EMAIL">"我们不再支持邮箱登录，请使用您的手机号登录"</string>
+    <string name="LOGIN_REQUEST_CODE">"获取短信验证码"</string>
+    <string name="LOGIN_RESET_PASSWORD">"重置密码"</string>
+    <string name="LOGIN_VERIFICATION_CODE">"验证码"</string>
+
+    <!-- Fuzzy -->
+    <string name="LOGIN_VERIFY_ACCOUNT">"验证账户"</string>
+    <string name="MEASUREMENT_CANCELED">"抱歉，测量已取消"</string>
+    <string name="MEASURING_COUNTDOWN">"倒计时"</string>
+    <string name="MEASURING_GUEST">"正在测量好友"</string>
+    <string name="MEASURING_MSG_DEFAULT">"请把面部保持在白色脸型轮廓内"</string>
+    <string name="MEASURING_PERFECT">"测量条件满足，请保持静止"</string>
+    <string name="MEASURING_SELF">"正在测量 {NICKNAME}"</string>
+    <string name="MEASURING_STARTED">"测量已开始
+请保持静止"</string>
+    <string name="MSG_COMING_SOON">"登录您的帐户后，您将可以保存并查看所有的测量结果。"</string>
+    <string name="MSG_ENTERPRISE_CONFIRMATION">"请确认是否要加入 {ENT_NAME}"</string>
+    <string name="MSG_INVALID_QR_CODE">"此二维码无效，请确保您扫描的二维码由纽洛斯官方提供"</string>
+    <string name="MSG_INVALID_QR_CODE_TITLE">"二维码无效"</string>
+    <string name="MSG_NEED_HELP">"需要帮助?"</string>
+    <string name="MSG_SAVING">"正在保存"</string>
+    <string name="MSG_STUDY_CONFIRMATION">"请确认是否要加入研究项目 {STUDY_NAME}"</string>
+    <string name="MSG_SUCCESS">"成功！"</string>
+    <string name="NOTE_LOADING">"正在加载记录"</string>
+    <string name="NSCameraUsageDescription">"我们将使用摄像头来进行测量"</string>
+    <string name="NSPhotoLibraryAddUsageDescription">"测量结果将会保存到您的相册"</string>
+    <string name="NSPhotoLibraryUsageDescription">"我们需要访问您的相册来获取个人资料"</string>
+    <string name="PASSWORD_ERROR_MATCH">"密码不匹配，请重新输入"</string>
+    <string name="PASSWORD_PROMPT">"密码"</string>
+    <string name="PASSWORD_RESET_EMAIL">"密码重置链接将发送到您的邮箱"</string>
+    <string name="PASSWORD_RESET_EMAIL_CHECK">"密码重置链接已发送至您的邮箱，请查看"</string>
+    <string name="PASSWORD_RESET_TITLE_EMAIL">"请输入您的邮箱地址"</string>
+    <string name="PASSWORD_TITLE">"密码"</string>
+    <string name="POPUP_LICENSE_EXPIRY">"提示: 您需要下载更新以便继续使用心魔镜"</string>
+    <string name="PRIVACY_POLICY">"隐私政策"</string>
+    <string name="PROFILE_AGE">"年龄"</string>
+    <string name="PROFILE_BP_MEDICATION">"血压药"</string>
+    <string name="PROFILE_BP_STANDARD">"测量标准 (0=标准, 1=袖子)"</string>
+    <string name="PROFILE_DAY">"日"</string>
+    <string name="PROFILE_DESCRIPTION">"健康信息"</string>
+    <string name="PROFILE_DIABETES">"糖尿病"</string>
+    <string name="PROFILE_DOB">"出生日期"</string>
+    <string name="PROFILE_ERROR_HEIGHT_WEIGHT">"您输入的身高和体重不合理，请修正"</string>
+    <string name="PROFILE_FEMALE">"女"</string>
+    <string name="PROFILE_FORGOT_PASSWORD">"忘记密码？"</string>
+    <string name="PROFILE_FOUNDATION_BB_CREAM">"粉底或BB霜"</string>
+    <string name="PROFILE_GENDER">"性别"</string>
+    <string name="PROFILE_GENDER_OTHER">"其他"</string>
+    <string name="PROFILE_GREETING">"欢迎回来！"</string>
+    <string name="PROFILE_HEADER">"您好，我是心魔镜！
+在开始之前，请先介绍一下您自己。"</string>
+    <string name="PROFILE_HEADER_GUEST">"您好，{NICKNAME}的好友！
+在开始之前，请先介绍一下您自己。"</string>
+    <string name="PROFILE_HEIGHT">"身高"</string>
+    <string name="PROFILE_HYPERTENSION">"高血压"</string>
+    <string name="PROFILE_HYPOTENSION">"低血压"</string>
+    <string name="PROFILE_MAKEUP">"您今天是否使用了 (0=否，1＝是):"</string>
+    <string name="PROFILE_MAKEUP_TITLE">"任何化妆品吗"</string>
+    <string name="PROFILE_MALE">"男"</string>
+    <string name="PROFILE_MEDICAL_CONDITIONS_TITLE">"请问你当下是否有以下状态 (0=否，1=是)"</string>
+    <string name="PROFILE_MONTH">"月"</string>
+    <string name="PROFILE_NAME">"条码号"</string>
+    <string name="PROFILE_NICKNAME">"昵称"</string>
+    <string name="PROFILE_NICKNAME_GREETING">"您好，{NICKNAME}"</string>
+    <string name="PROFILE_NICKNAME_LONG">"昵称 (您想让心魔镜如何称呼您?)"</string>
+    <string name="PROFILE_NICKNAME_TITLE">"(您想让心魔镜如何称呼您?)"</string>
+    <string name="PROFILE_NURSE">"护士"</string>
+    <string name="PROFILE_OVER_CM">"高于 {NUM} 厘米"</string>
+    <string name="PROFILE_OVER_IN">"高于 {NUM}\'{NUM}\\""</string>
+    <string name="PROFILE_OVER_KG">"高于 {NUM} 公斤"</string>
+    <string name="PROFILE_OVER_LBS">"高于 {NUM} 磅"</string>
+    <string name="PROFILE_PARTICANT_ID">"被试 ID"</string>
+    <string name="PROFILE_PULSE">"脉冲"</string>
+    <string name="PROFILE_PUPIL_DISTANCE">"瞳距"</string>
+    <string name="PROFILE_RATE_PAIN_TITLE">"你现在从0 (不疼) 到10 (非常疼) 有多疼？"</string>
+    <string name="PROFILE_SMOKING">"抽烟"</string>
+    <string name="PROFILE_TEMPERATURE">"体温"</string>
+    <string name="PROFILE_UNDER_CM">"低于 {NUM} 厘米"</string>
+    <string name="PROFILE_UNDER_IN">"低于 {NUM}\'{NUM}\\""</string>
+    <string name="PROFILE_UNDER_KG">"低于 {NUM} 公斤"</string>
+    <string name="PROFILE_UNDER_LBS">"低于 {NUM} 磅"</string>
+    <string name="PROFILE_WEIGHT">"体重"</string>
+    <string name="PROFILE_WEIGHT_KG">"体重 ( kg )"</string>
+    <string name="PROFILE_YEAR">"年份"</string>
+    <string name="PW_REQUIREMENTS">"密码必须符合下列要求：
+- 包括至少8个字符
+- 包括一个小写字母
+- 包括一个大写字母
+- 包括至少一个特殊符号：!@#$%^&amp;*()-_"</string>
+    <string name="Q_BP_MEDICATION">"您正在服用治疗血压的药物吗？"</string>
+    <string name="Q_HYPERTENSION">"您有高血压吗？"</string>
+    <string name="Q_HYPOTENSION">"你有低血压吗？"</string>
+    <string name="Q_SMOKING">"您抽烟吗？"</string>
+    <string name="RESULT_BMI">"体重指数 BMI"</string>
+    <string name="RESULT_BP">"血压"</string>
+    <string name="RESULT_BP_DIA">"舒张压"</string>
+    <string name="RESULT_BP_DIA_HYPER_RISK">"舒张期高血压风险"</string>
+    <string name="RESULT_BP_SYS">"收缩压"</string>
+    <string name="RESULT_BP_SYS_HYPER_RISK">"收缩期高血压风险"</string>
+    <string name="RESULT_BP_SYS_TITLE">"收缩压"</string>
+    <string name="RESULT_BREATHING">"呼吸"</string>
+    <string name="RESULT_BSI">"体型指数"</string>
+    <string name="RESULT_CARDIAC_WORKLOAD">"心脏负荷"</string>
+    <string name="RESULT_CVD_RISK">"心血管疾病风险"</string>
+    <string name="RESULT_CVD_RISK_SHORT">"心血管疾病风险"</string>
+    <string name="RESULT_DIASTOLIC">"舒张压"</string>
+    <string name="RESULT_DISCLAIMER_BOTTOM">"注意：屏幕显示的数字只是估计值，不能替代医疗专业人员的判断。它们旨在提高人们对整体健康的认知。"</string>
+    <string name="RESULT_DISCLAIMER_LONG">"非医疗用途
+我们的服务并非为医疗用途。服务不提供任何种类的医疗建议，且不用于任何医疗用途或目的。我们的服务仅为个人健身和健康管理。
+
+向您提供的生理和心理状态的预估测量结果——包括心率、压力等（“测量结果”），均不应被视为医疗建议。我们向您提供的测量结果不可用于任何医疗目的或用于诊断、治疗、治愈或预防任何疾病、不适或伤害。在适用法律允许的最大范围内，您明确同意，我们未通过我们的服务提供任何医疗建议。我们的服务提供的所有内容包括测量结果并非用于也不应被用于替代（a）您的医生或其他专业医疗人士的建议；以及（b）访问、致电或咨询您的医生或其他专业医疗人士。如果您有与健康有关的任何问题，请立即致电或咨询您的医生或其他医疗服务提供者。如果您有紧急情况，请立即致电您的医生或当地的急诊服务。您对我们服务的使用未在纽洛斯和您之间构成和设立任何医生与患者、医师与患者之间的关系或其他医护专业关系。
+
+准确性
+给您提供的测量结果基于纽洛斯自身开发的指数和标准，且仅用于个人信息目的，我们对此未做出任何明示或暗示的陈述或保证。虽然我们尽力提供准确的估算测量结果，但我们对您通过服务收到的测量结果、内容和任何其他信息或结果的任何准确性、可靠性、可获性、安全性、完整性或正确使用不做任何保证且不承担任何责任和义务。"</string>
+    <string name="RESULT_EMOTION">"表情"</string>
+    <string name="RESULT_EMOTION_VALENCE">"情绪效价"</string>
+    <string name="RESULT_ERR_BR">"因为环境光线或面部影像不稳定等原因，心魔镜无法准确测量您的呼吸频率。
+
+请遵循正确操作方法重试一次。"</string>
+    <string name="RESULT_ERR_CONFIDENCE_BP">"### 抱歉！
+
+因为环境光线或面部影像不稳定等原因，心魔镜无法准确测量以下指标，请遵循正确操作方法重试一次:
+
+-   综合健康指数
+-   血压 （收缩压 &amp; 舒张压）
+-   心脏负荷
+-   心血管疾病风险
+-   心脏病风险
+-   中风风险
+
+请遵循正确操作方法，并重新尝试。"</string>
+    <string name="RESULT_ERR_MSG_SIGNAL">"请遵循正确操作方法，并重新尝试"</string>
+    <string name="RESULT_ERR_TITLE_SIGNAL">"抱歉！心魔镜无法测量您的{SIGNAL}"</string>
+    <string name="RESULT_ERROR_IHB">"因为环境光线或面部影像不稳定等原因，心魔镜无法准确测量您的不规则心跳。
+
+请遵循正确操作方法重试一次。"</string>
+    <string name="RESULT_FACIAL_SKIN_AGE">"皮肤年龄"</string>
+    <string name="RESULT_FACIAL_VASCULAR_AGE">"血管年龄"</string>
+    <string name="RESULT_GWS">"综合健康评分"</string>
+    <string name="RESULT_HEART_ATTACK_RISK">"心脏病风险"</string>
+    <string name="RESULT_HEART_RATE">"心率"</string>
+    <string name="RESULT_HRV">"心率变异性"</string>
+    <string name="RESULT_IHB">"不规则心跳"</string>
+    <string name="RESULT_MAP">"平均动脉压力"</string>
+    <string name="RESULT_MENTAL">"心理指标"</string>
+    <string name="RESULT_OVERALL">"综合评分"</string>
+    <string name="RESULT_PHYSICAL">"身体指标"</string>
+    <string name="RESULT_PHYSIO">"生理指标"</string>
+    <string name="RESULT_PRINT">"打印"</string>
+    <string name="RESULT_PULSE_PRESSURE">"脉压"</string>
+    <string name="RESULT_RISKS">"疾病风险"</string>
+    <string name="RESULT_SCAN_VIEW">"扫码查看个人健康报告"</string>
+    <string name="RESULT_SNR">"信噪比"</string>
+    <string name="RESULT_SPO2">"血氧饱和度"</string>
+
+    <!-- Fuzzy -->
+    <string name="RESULT_STRESS_INDEX">"心理压力值"</string>
+    <string name="RESULT_STROKE_RISK">"中风风险"</string>
+    <string name="RESULT_SUMMARY">"结果列表"</string>
+    <string name="RESULT_VASCULAR_CAPACITY">"血管功能"</string>
+    <string name="RESULT_VITALS">"生命体征"</string>
+    <string name="RESULT_WATHR">"腰围身高比"</string>
+    <string name="RESULTS_TITLE">"测量报告"</string>
+    <string name="SETTING_CHINA_SERVER">"中国服务器"</string>
+    <string name="SETTING_INTL_SERVER">"海外服务器"</string>
+    <string name="SETTING_LOGOUT">"退出登录"</string>
+    <string name="SETTING_LOGOUT_CONFIRM">"您是否要退出当前帐户?"</string>
+    <string name="SETTING_MADE_IN_TO">"多伦多研发制造"</string>
+    <string name="SETTING_PROFILE">"账户"</string>
+    <string name="SETTING_PROFILE_SAVE">"保存个人资料"</string>
+    <string name="SETTING_RATE_APP">"给Anura打分"</string>
+    <string name="SETTING_SEND_FEEDBACK">"意见反馈"</string>
+    <string name="SETTING_TITLE">"设置"</string>
+    <string name="SETTING_VERSION_NUM">"心魔镜 {VERSION}"</string>
+    <string name="SETTINGS_LOGGING_OUT_MSG">"正在退出登录"</string>
+    <string name="SETTINGS_STUDY">"研究项目"</string>
+    <string name="SHARE_MSG_CHINA">"请扫描二维码关注我们的微信公众号以了解更多信息或下载"</string>
+    <string name="SHARE_MSG_INTL">"请点击这里下载心魔镜"</string>
+    <string name="SHARE_SUMMARY_BTN">"分享测量结果列表"</string>
+    <string name="SIGN_UP_TITLE">"注册"</string>
+    <string name="SIGNUP_CHECK_INBOX">"请检查您的邮箱"</string>
+    <string name="SIGNUP_EMAIL_SENT">"我们刚把验证邮件发到以下邮箱地址
+{email}"</string>
+    <string name="SIGNUP_ENTER_VERIFICATION_CODE">"输入短信验证码"</string>
+    <string name="SIGNUP_LOGIN_BTN">"注册新账户 或 登录已有帐户"</string>
+    <string name="SIGNUP_LOGIN_CANADA">"加拿大"</string>
+    <string name="SIGNUP_LOGIN_CELLPHONE_NUM">"手机号"</string>
+    <string name="SIGNUP_LOGIN_CHINA">"中国"</string>
+    <string name="SIGNUP_LOGIN_EMAIL">"邮箱"</string>
+    <string name="SIGNUP_LOGIN_TITLE">"开始使用最新版本之前，请确认身份"</string>
+    <string name="SIGNUP_MSG">"注册后，您的个人健康信息将可以保存下来，保持登陆状态，每次的测量结果都可以保存并随时查看。"</string>
+    <string name="SSO_CREATE_ACC">"未注册用户登录时将自动创建账号"</string>
+    <string name="SSO_TITLE">"其他登录方式"</string>
+    <string name="SSO_WECHAT_INSTALL">"请先安装微信应用"</string>
+    <string name="SURVEYS_BTN_SUBTITLE">"并前往问卷"</string>
+    <string name="SURVEYS_DESCRIPTION">"我们一直在寻找更多的方法来帮助人们更多地了解他们的健康，因此开发了本问卷。
+
+本问卷包括了我们目前正在开发的最新工具，用来评估您的健康状况和新的测量结果。
+
+点击同意，即表示您了解在问卷中看到的结果仅用于教育目的。 它们不能替代医疗专业人员的临床判断。"</string>
+    <string name="SURVEYS_HEADER">"问卷"</string>
+    <string name="TERMS_OF_USE">"使用条款"</string>
+    <string name="UNIT_BEATS30SEC">"beats / 30 seconds"</string>
+    <string name="UNIT_BMI">"kg/m²"</string>
+    <string name="UNIT_BPM">"bpm"</string>
+    <string name="UNIT_BRPM">"brpm"</string>
+    <string name="UNIT_CELSIUS">"°C"</string>
+    <string name="UNIT_CM">"厘米"</string>
+    <string name="UNIT_CM2">"cm/cm"</string>
+    <string name="UNIT_DB">"dB"</string>
+    <string name="UNIT_FEET_INCHES">"英尺"</string>
+    <string name="UNIT_IMPERIAL">"英制"</string>
+    <string name="UNIT_IN">"英尺"</string>
+    <string name="UNIT_KG">"公斤"</string>
+    <string name="UNIT_LBS">"磅"</string>
+    <string name="UNIT_METRIC">"公制"</string>
+    <string name="UNIT_MMHG">"mmHg"</string>
+    <string name="UNIT_MS">"ms"</string>
+    <string name="UNIT_WAIST_CM">"腰围 ( cm )"</string>
+    <string name="VERIFY_EMAIL_SENT">"我们已把验证邮件发送至以下邮箱地址
+{EMAIL}以验证您的账号"</string>
+    <string name="VERIFY_HEADER">"谢谢！
+请检查您的邮箱"</string>
+    <string name="VERIFY_SPAM">"您可能需要检查垃圾邮件文件夹。"</string>
+    <string name="VIS_EXPR_ANGER">"愤怒"</string>
+    <string name="VIS_EXPR_DISGUST">"厌恶"</string>
+    <string name="VIS_EXPR_FEAR">"恐惧"</string>
+    <string name="VIS_EXPR_HAPPINESS">"愉悦"</string>
+    <string name="VIS_EXPR_NEUTRAL">"中性"</string>
+    <string name="VIS_EXPR_SADNESS">"悲伤"</string>
+    <string name="VIS_EXPR_SURPRISE">"惊讶"</string>
+    <string name="VIS_EXPR_VALENCE">"主要情绪效价"</string>
+    <string name="VIS_EXPR_VALENCE_NEGATIVE">"消极"</string>
+    <string name="VIS_EXPR_VALENCE_NEUTRAL">"中性"</string>
+    <string name="VIS_EXPR_VALENCE_POSITIVE">"积极"</string>
+    <string name="WARNING_CONSTRAINT_BACKLIGHT">"背景光过亮
+请调整位置和角度确保光线均匀分布在面部"</string>
+    <string name="WARNING_CONSTRAINT_BRIGHTNESS">"面部太亮
+请降低亮度"</string>
+    <string name="WARNING_CONSTRAINT_DARKNESS">"面部光线不足
+请提高亮度，确保光线均匀"</string>
+    <string name="WARNING_CONSTRAINT_DISTANCE">"面部距离手机太远
+请靠近摄像头"</string>
+    <string name="WARNING_CONSTRAINT_EXPOSURE">"摄像头校准中...
+请保持静止"</string>
+    <string name="WARNING_CONSTRAINT_FPS">"摄像头帧率不足
+请尝试关闭后台所有运行程序"</string>
+    <string name="WARNING_CONSTRAINT_GAZE">"面部偏斜
+请正向面对摄像头"</string>
+    <string name="WARNING_CONSTRAINT_MOVEMENT">"出现晃动
+请保持静止"</string>
+    <string name="WARNING_CONSTRAINT_POSITION">"请把面部保持在白色脸型轮廓内"</string>
+    <string name="WARNING_CONSTRAINT_TOO_CLOSE">"请把面部与手机的距离拉远一点"</string>
+    <string name="WARNING_CONSTRAINT_TOO_FAR">"请把面部与手机的距离拉近一点
+并保持在白色脸型轮廓内"</string>
+    <string name="WARNING_LOW_POWER_MODE">"为了更好的准确度，请取消低电量模式"</string>
+    <string name="WARNING_SERVER_CONNECTION">"服务器连接中"</string>
+    <string name="POPUP_32BIT">"根据您手机的性能，心魔镜的运行效果效果可能受限"</string>
+    <string name="SETTINGS_LEGAL">"法律条款"</string>
+    <string name="SETTINGS_UPDATE_CONSENT">"更新同意书"</string>
+
+    <!-- Fuzzy -->
+    <string name="SETTINGS_POPUP_CONSENT">"取消之后，您将不能使用心魔镜，您的信息也将不会被发送和处理。
+
+点击“确认”以完成取消授权，您的心魔镜™应用将被重置。"</string>
+    <string name="API_ERR_MAX_MEASUREMENTS_USED">"您的许可证已达到可测量上限。请联系您的许可证管理员"</string>
+    <string name="FORM_VALIDATION_ELEMENT_OVERFLOW">"{ELEMENT}不可高于{LIMIT}"</string>
+
+    <!-- Fuzzy -->
+    <string name="RESULT_RESPIRATORY">"呼吸系统"</string>
+    <string name="RESULT_DEBUG">"Debug"</string>
+    <string name="UNIT_FAHRENHEIT">"ºF"</string>
+
+    <!-- Fuzzy -->
+    <string name="UNIT_SPO2">"SpO2 %"</string>
+    <string name="BTN_INFO">"更多信息"</string>
+    <string name="RESULT_COMINGSOON">"即将推出"</string>
+
+    <!-- Fuzzy -->
+    <string name="INFO_SPO2">"血液中的氧是由血液中的红蛋白携带的。血氧饱和度(SpO2)是血液中被氧结合的氧合血红蛋白(HbO2)的容量占全部可结合的血红蛋白(Hb，hemoglobin)容量的百分比，即血液中血氧的浓度，它是呼吸循环的重要生理参数。在健康个体中，血氧饱和度应高于95%。这个数字的减少可能意味着你的身体得不到足够的氧气。这种情况可能发生在高海拔地区，原因是缺氧，或者是由于一些疾病，如哮喘、慢性阻塞性肺疾病（COPD）或影响肺部的感染，阻碍了肺部对氧气的充分吸收。"</string>
+    <string name="SETTINGS_POPUP_CONSENT_HEADER">"您确定要取消这些授权吗？"</string>
+
+    <!-- Fuzzy -->
+    <string name="SETTINGS_POPUP_CONSENT_CONFIRM">"您已成功取消授权。心魔镜™应用已被重置。"</string>
+
+    <!-- Fuzzy -->
+    <string name="RESULT_BODY_TEMP">"体温"</string>
+    <string name="INFO_BODY_TEMP">"人的身体为了保持正常运作，会自动调节并保持正常的体温。心魔镜™从人的脸部脸测量体温，这种方法测得的正常体温在35.8°C（96.4°F）到37.6°C（99.7°F）之间。
+
+由于感染、烧伤、受伤、服药或身体无法摆脱过热（中暑），测得的体温可能会高于正常温度（发烧）。
+
+如果测得的体温低于正常范围（体温过低），可能是反映出人在寒冷中待得太久的迹象，也可能是严重感染（败血症）、休克或其他疾病的征兆（尤其是伴有其他症状，如发冷、神志不清或呼吸困难时）。"</string>
+    <string name="PROFILE_HEIGHT_CM">"身高（厘米）"</string>
+
+    <string name="Analyzing_Data">"正在分析数据"</string>
+</resources>
